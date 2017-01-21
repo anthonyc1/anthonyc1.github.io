@@ -76,6 +76,7 @@
     float:left;
     text-align: left;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 #aboutme {
     margin-top: 50px;
@@ -108,7 +109,7 @@
 }
 
 .row2 {
-    height: 600px;
+    height: 700px;
     margin-top: 50px;
 }
 .allprojects{
@@ -158,12 +159,32 @@
 	font-size: 18px;
 }
 
+@media screen and (max-width: 1000px){
+    #cards-bar {
+        height: 260px;
+    }
+    .row2 {
+        height: 720px;
+    }
+    .card {
+        width: 28em;
+        height: 10em;
+        padding: 2em;
+    }
+}
+
 @media screen and (max-width: 700px){
     #endquote {
         font-size: 13px;
     }
+    .row2 {
+        height: 820px;
+    }
+    #cards-bar {
+        height: 330px;
+    }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
     #socialWrapper {
         max-width: 60%
     }
@@ -171,7 +192,7 @@
         height: 570px;
     }
     .row2 {
-        height: 800px;
+        height: 900px;
     }
     .card {
         display: none;

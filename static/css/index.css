@@ -168,16 +168,16 @@
         max-width: 60%
     }
     .row {
-        height: 550px;
+        height: 570px;
     }
     .row2 {
-        height: 700px;
+        height: 800px;
     }
     .card {
         display: none;
     }
     #cards-bar {
-        margin-left: 20px;
+        margin-left: 5px;
         height: 350px;
     }
 }

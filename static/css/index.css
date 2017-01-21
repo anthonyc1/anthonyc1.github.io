@@ -141,8 +141,10 @@ tab1 {
     margin-left: 60px;
     height: 250px;
 }
-.fa-github:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.btn-primary:hover{
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
 }
 #projtitle {
     font-size: 30px;
@@ -158,6 +160,7 @@ tab1 {
 .projdescrip {
     margin-left: 30px;
     font-size: 20px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
 }
 
 .row3 {
@@ -193,7 +196,7 @@ tab1 {
         height: 300px;
     }
     .row2 {
-        height: 720px;
+        height: 760px;
     }
 }
 
@@ -216,7 +219,7 @@ tab1 {
         height: 400px;
     }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
     #socialWrapper {
         max-width: 60%
     }

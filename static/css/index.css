@@ -1,0 +1,168 @@
+.navbar-default{
+	background-color: #f8f8f8;
+}
+
+.navbar-fixed-top {
+	top:0;
+	height: 60px;
+	border-width: 0 0 1px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    margin-top: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-color: #ddd;
+}
+
+@media screen and (max-width: 766px) {
+    #mainNavBar {
+        background-color: #ddd;
+    }
+}
+
+.row {
+	margin-top: 120px;
+	height: 430px;
+}
+
+.intro {
+	font-size: 70px;
+	font-family: 'Lato',open sans,sans-serif,georgia;
+	display: block;
+    text-align: center;
+}
+
+#socialWrapper {
+    display:flex;
+    justify-content:space-between;
+    max-width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 60px;
+}
+
+#headerband {
+    height: 12px;
+    width: 80%;
+    background-color: teal;
+    margin-right: auto;
+    margin-left: auto;
+}
+#titleband{
+    height: 6px;
+    width: 20%;
+    background-color: teal;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#seemore{
+    font-family: 'Lato',open sans,sans-serif,georgia;
+    font-size: 15px;
+    height:20px;
+    float:right;
+    text-align: right;
+}
+#back{
+    font-family: 'Lato',open sans,sans-serif,georgia;
+    font-size: 15px;
+    height:20px;
+    float:left;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#aboutme {
+    margin-top: 50px;
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+
+.descrip {
+    display: block;
+	font-size: 18px;
+	font-family: open sans,'Lato',sans-serif,georgia;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 800px){
+    .intro {
+        font-size: 45px;
+    }
+    .descrip {
+        font-size: 15px;
+    }
+}
+
+.row2 {
+    height: 600px;
+    margin-top: 50px;
+}
+.allprojects{
+    height: 960px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 20em;
+    height: 16em;
+    padding: 2em;
+}
+
+#cards-bar {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 250px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#projtitle {
+    font-size: 30px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+#projband{
+    height: 6px;
+    width: 15%;
+    background-color: teal;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.projdescrip {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.row3 {
+	text-align: center;
+	height: 100px;
+}
+
+#endquote {
+	font-style: italic;
+	font-family: Roboto,'Lato',open sans,sans-serif,georgia;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 700px){
+    #endquote {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 500px){
+
+}

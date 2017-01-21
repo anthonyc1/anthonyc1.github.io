@@ -164,5 +164,20 @@
     }
 }
 @media screen and (max-width: 500px){
-
+    #socialWrapper {
+        max-width: 60%
+    }
+    .row {
+        height: 550px;
+    }
+    .row2 {
+        height: 700px;
+    }
+    .card {
+        display: none;
+    }
+    #cards-bar {
+        margin-left: 20px;
+        height: 350px;
+    }
 }

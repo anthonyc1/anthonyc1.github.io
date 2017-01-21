@@ -24,6 +24,10 @@
     }
 }
 
+tab1 {
+    padding-left: 4em;
+}
+
 .row {
 	margin-top: 120px;
 	height: 430px;
@@ -95,6 +99,14 @@
     display: block;
 	font-size: 18px;
 	font-family: open sans,'Lato',sans-serif,georgia;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.titledescrip {
+    display: block;
+    font-size: 18px;
+    font-family: open sans,'Lato',sans-serif,georgia;
     text-align: center;
     margin-bottom: 35px;
 }
@@ -129,7 +141,7 @@
     margin-left: 60px;
     height: 250px;
 }
-.card:hover{
+.fa-github:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 #projtitle {
@@ -176,6 +188,15 @@
     }
 }
 
+@media screen and (max-width: 990px){
+    #cards-bar {
+        height: 300px;
+    }
+    .row2 {
+        height: 720px;
+    }
+}
+
 @media screen and (max-width: 700px){
     #endquote {
         font-size: 13px;
@@ -187,6 +208,14 @@
         height: 330px;
     }
 }
+@media screen and (max-width: 680px){
+    .row2 {
+        height: 970px;
+    }
+    #cards-bar {
+        height: 400px;
+    }
+}
 @media screen and (max-width: 480px){
     #socialWrapper {
         max-width: 60%
@@ -195,13 +224,13 @@
         height: 570px;
     }
     .row2 {
-        height: 900px;
+        height: 1000px;
     }
     .card {
         display: none;
     }
     #cards-bar {
         margin-left: 5px;
-        height: 350px;
+        height: 420px;
     }
 }

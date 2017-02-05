@@ -195,13 +195,13 @@ tab2 {
         height: 450px;
     }
     .row2 {
-         height: 720px;
+         height: 770px;
      }
 }
 
 @media screen and (max-width: 990px){
     .row2 {
-        height: 760px;
+        height: 770px;
       }
 }
 
@@ -215,7 +215,7 @@ tab2 {
 }
 @media screen and (max-width: 680px){
     .row2 {
-         height: 970px;
+         height: 1100px;
      }
 
 }
@@ -230,7 +230,10 @@ tab2 {
         display: none;
     }
     .row2 {
-         height: 1000px;
+         height: 1300px;
+     }
+     #cards-bar{
+        margin-left: 0px;
      }
 
 }

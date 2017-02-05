@@ -148,9 +148,10 @@ tab2 {
 #buttons-bar{
     display: flex;
     margin-top: 20px;
-    max-width: 70%;
+    max-width: 60%;
     margin-right: auto;
     margin-left: auto;
+    justify-content:space-between;
 }
 .btn-primary:hover{
     background: rgba(0,0,0,0);
@@ -233,7 +234,7 @@ tab2 {
          height: 1300px;
      }
      #cards-bar{
-        margin-left: 0px;
+        margin-left: -15px;
      }
 
 }

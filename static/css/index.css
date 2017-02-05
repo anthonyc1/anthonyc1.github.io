@@ -148,7 +148,9 @@ tab2 {
 #buttons-bar{
     display: flex;
     margin-top: 20px;
-    max-width: 60%;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .btn-primary:hover{
     background: rgba(0,0,0,0);
@@ -184,7 +186,6 @@ tab2 {
 }
 
 @media screen and (max-width: 1000px){
-
     .card {
         width: 28em;
         height: 10em;
@@ -193,21 +194,29 @@ tab2 {
     .row {
         height: 450px;
     }
+    .row2 {
+         height: 720px;
+     }
 }
 
 @media screen and (max-width: 990px){
-
+    .row2 {
+        height: 760px;
+      }
 }
 
 @media screen and (max-width: 700px){
     #endquote {
         font-size: 13px;
     }
-
-
+    .row2 {
+         height: 820px;
+     }
 }
 @media screen and (max-width: 680px){
-
+    .row2 {
+         height: 970px;
+     }
 
 }
 @media screen and (max-width: 500px){
@@ -220,5 +229,8 @@ tab2 {
     .card {
         display: none;
     }
+    .row2 {
+         height: 1000px;
+     }
 
 }

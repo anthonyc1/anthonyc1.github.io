@@ -73,14 +73,14 @@ tab2 {
 #seemore{
     font-family: 'Lato',open sans,sans-serif,georgia;
     font-size: 15px;
-    height:20px;
+    height:40px;
     float:right;
     text-align: right;
 }
 #back{
     font-family: 'Lato',open sans,sans-serif,georgia;
     font-size: 15px;
-    height:20px;
+    height:40px;
     float:left;
     text-align: left;
     margin-bottom: 20px;
@@ -148,7 +148,7 @@ tab2 {
     max-width: 40%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     justify-content:space-between;
 }
 .btn-primary:hover{

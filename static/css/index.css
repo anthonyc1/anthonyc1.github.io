@@ -148,6 +148,7 @@ tab2 {
     max-width: 40%;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
     justify-content:space-between;
 }
 .btn-primary:hover{

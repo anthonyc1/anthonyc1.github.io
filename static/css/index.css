@@ -213,6 +213,9 @@ tab2 {
 }
 
 @media screen and (max-width: 750px){
+    row{
+        margin-top: 50px;
+    }
     #buttons-bar{
         max-width: 60%;
     }
@@ -223,7 +226,7 @@ tab2 {
 
 @media screen and (max-width: 550px){
     row{
-        margin-top: 90px;
+        margin-top: 30px;
     }
     tab1 {
         padding-left: 2em;
@@ -261,7 +264,7 @@ tab2 {
 }
 @media screen and (max-width: 400px){
     #socialWrapper {
-        max-width: 80%
+        max-width: 85%
     }
 
 }

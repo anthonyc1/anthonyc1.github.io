@@ -222,6 +222,9 @@ tab2 {
 }
 
 @media screen and (max-width: 550px){
+    row{
+        margin-top: 90px;
+    }
     tab1 {
         padding-left: 2em;
     }
@@ -247,7 +250,7 @@ tab2 {
         font-size: 15px;
     }
     #socialWrapper {
-        max-width: 60%
+        max-width: 65%
     }
     #seemore{
         font-size: 15px;
@@ -257,6 +260,8 @@ tab2 {
     }
 }
 @media screen and (max-width: 400px){
-
+    #socialWrapper {
+        max-width: 80%
+    }
 
 }

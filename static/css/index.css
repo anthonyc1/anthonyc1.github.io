@@ -225,6 +225,9 @@ tab2 {
 }
 
 @media screen and (max-width: 550px){
+    .introdescrip{
+        font-size: 20px;
+    }
     .row{
         margin-top: 50px;
     }
@@ -263,6 +266,9 @@ tab2 {
     }
 }
 @media screen and (max-width: 400px){
+    .introdescrip{
+        font-size: 18px;
+    }
     #socialWrapper {
         max-width: 85%
     }

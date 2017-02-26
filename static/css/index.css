@@ -200,24 +200,32 @@ tab2 {
 	font-size: 18px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 990px){
     tab2 {
         padding-left: 4em;
-    }
-    #buttons-bar{
-        max-width: 50%;
     }
     #socialWrapper {
         max-width: 50%
     }
+    #buttons-bar{
+        max-width: 65%;
+    }
+    #card {
+        display: none;
+    }
+    #card2 {
+        margin-top: 80px;
+        display: block;
+    }
+     #cards-bar{
+        margin-top: 15px;
+        margin-left: -15px;
+     }
 }
 
 @media screen and (max-width: 750px){
     .row{
         margin-top: 80px;
-    }
-    #buttons-bar{
-        max-width: 60%;
     }
     #socialWrapper {
         max-width: 55%
@@ -237,21 +245,6 @@ tab2 {
     tab2 {
         padding-left: 1em;
     }
-    #buttons-bar{
-        max-width: 65%;
-    }
-    #card {
-        display: none;
-    }
-    #card2 {
-        margin-top: 80px;
-        display: block;
-    }
-     #cards-bar{
-        margin-top: 15px;
-        margin-left: -15px;
-     }
-
     #endquote {
         font-size: 15px;
     }

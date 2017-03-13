@@ -33,6 +33,9 @@ tab1 {
 tab2 {
     padding-left: 10em;
 }
+#space {
+    height: 60px;
+}
 
 .row {
 	padding-top: 200px;
@@ -168,7 +171,8 @@ tab2 {
 }
 
 #aboutme {
-    max-width: 60%;
+    padding-left: 200px;
+    padding-right: 200px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -206,18 +210,16 @@ tab2 {
     padding-bottom: 35px;
 }
 
-@media screen and (max-width: 800px){
-    .intro {
-        font-size: 45px;
-    }
-    .descrip {
-        font-size: 15px;
-    }
-}
-
 .row3 {
     padding-top: 40px;
     padding-bottom: 80px;
+}
+
+#stencilimage {
+    height: 200px;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 .allprojects{
     padding-top: 50px;
@@ -230,7 +232,7 @@ tab2 {
 #cards-bar {
     display: flex;
     padding-top: 60px;
-    padding-left: 80px;
+    padding-left: 40px;
 }
 #buttons-bar{
     display: flex;
@@ -271,8 +273,8 @@ tab2 {
 
 .row4 {
 	text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 60px;
     font-family: Roboto,'Lato',open sans,sans-serif,georgia;
     font-size: 18px;
     background-color: #565656;
@@ -281,7 +283,7 @@ tab2 {
 #endquote {
 	font-style: italic;
 	font-family: Roboto,'Lato',open sans,sans-serif,georgia;
-	font-size: 22px;
+	font-size: 24px;
 }
 
 @media screen and (max-width: 990px){
@@ -298,36 +300,50 @@ tab2 {
         display: none;
     }
     #card2 {
-        padding-top: 80px;
-        padding-left: 80px;
+        padding-top: 40px;
+        padding-left: 50px;
         display: block;
     }
      #cards-bar{
-        padding-top: 15px;
+        padding-top: 30px;
         padding-right: 15px;
+        padding-left: 60px;
      }
      #projdescrip{
         padding-left: 0px;
+        padding-right: 0px;
      }
+     #aboutme {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .intro{
+        font-size: 45px;
+    }
+    
 }
 
 @media screen and (max-width: 750px){
+    tab1 {
+        padding-left: 2em;
+    }
+    tab2 {
+        padding-left: 1em;
+    }
     .row{
         padding-top: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     #socialWrapper {
         max-width: 55%
     }
-     #seemore{
-        font-size: 18px;
-        padding-right: 70px;
-    }
-    #back{
-        font-size: 18px;
-        padding-left: 70px;
-    }
     #endquote {
-        font-size: 18px;
+        font-size: 20px;
     }
     #row4{
         font-size: 16px;
@@ -341,31 +357,47 @@ tab2 {
     .button2 {
         margin-left: 50px;
     }
+     #cards-bar{
+        padding-left: 25px;
+    }
+    #card2{
+        padding-left: 25px;
+    }
+    #stencilimage {
+        height: 200px;
+        width: 500px;
+}
 }
 
 @media screen and (max-width: 550px){
     .introdescrip{
-        font-size: 22px;
+        font-size: 20px;
     }
     .row{
-        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
-    tab1 {
-        padding-left: 2em;
-    }
-    tab2 {
-        padding-left: 1em;
-    }
+    
     #socialWrapper {
-        max-width: 65%
+        max-width: 65%;
     }
-    #seemore{
+    #cards-bar{
+        padding-left: 10px;
+    }
+    #card2 {
+        padding-left: 10px;
+    }
+    #aboutme {
         padding-right: 50px;
-    }
-    #back{
         padding-left: 50px;
     }
+    #stencilimage {
+        height: 200px;
+        width: 400px;
 }
+
+}
+
 @media screen and (max-width: 400px){
     #socialWrapper {
         max-width: 85%

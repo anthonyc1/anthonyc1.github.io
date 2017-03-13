@@ -35,7 +35,9 @@ tab2 {
 }
 
 .row {
-	margin-top: 200px;
+	padding-top: 200px;
+    padding-bottom: 130px;
+    background-color: #ECEFF4;
 }
 
 .intro {
@@ -60,8 +62,7 @@ tab2 {
     max-width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    padding-top: 50px;
 }
 
 #headerband {
@@ -74,9 +75,15 @@ tab2 {
     margin-top: 40px;
 }
 
+#inverse {
+    color:white;
+    text-shadow: 1.2px 1.2px black;
+}
+
 .row2 {
-    margin-top: 130px;
-    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #206199;
 }
 #titleband{
     height: 6px;
@@ -84,26 +91,82 @@ tab2 {
     background-color: teal;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
-#seemore{
-    margin-top: 20px;
-    font-family: 'Lato',open sans,sans-serif,georgia;
-    font-size: 18px;
-    height:40px;
-    float:right;
-    text-align: right;
+
+#button {
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
-#back{
-    font-family: 'Lato',open sans,sans-serif,georgia;
-    font-size: 18px;
-    height:40px;
-    float:left;
-    text-align: left;
-    margin-bottom: 20px;
-    margin-left: 50px;
+
+.button1 {
+    float: right;
+    margin-right: 150px;
 }
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+  margin-left: 150px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-left: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
 #aboutme {
     max-width: 60%;
     margin-right: auto;
@@ -112,6 +175,16 @@ tab2 {
 
 #title {
     text-align: center;
+    color: black;
+    text-shadow: 3px 3px white;
+    font-size: 30px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+
+#titleinverse {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;
     font-size: 30px;
     font-family: 'Lato',open sans,sans-serif,georgia;
 }
@@ -121,8 +194,8 @@ tab2 {
 	font-size: 20px;
 	font-family: open sans,'Lato',sans-serif,georgia;
     text-align: left;
-    margin-bottom: 35px;
-    margin-top: 20px;
+    padding-bottom: 35px;
+    padding-top: 20px;
 }
 
 .titledescrip {
@@ -130,7 +203,7 @@ tab2 {
     font-size: 18px;
     font-family: open sans,'Lato',sans-serif,georgia;
     text-align: center;
-    margin-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 @media screen and (max-width: 800px){
@@ -143,10 +216,11 @@ tab2 {
 }
 
 .row3 {
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 .allprojects{
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 #card2{
@@ -155,15 +229,15 @@ tab2 {
 
 #cards-bar {
     display: flex;
-    margin-top: 60px;
-    margin-left: 40px;
+    padding-top: 60px;
+    padding-left: 80px;
 }
 #buttons-bar{
     display: flex;
     max-width: 40%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     justify-content:space-between;
 }
 
@@ -184,20 +258,30 @@ tab2 {
     margin-bottom: 10px;
 }
 #projdescrip {
-    margin-left: 30px;
+    padding-left: 30px;
     font-size: 20px;
     font-family: 'Lato',open sans,sans-serif,georgia;
 }
 
+#stayintouch {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: #C4D6D6;
+}
+
 .row4 {
 	text-align: center;
-	height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Roboto,'Lato',open sans,sans-serif,georgia;
+    font-size: 18px;
+    background-color: #565656;
 }
 
 #endquote {
 	font-style: italic;
 	font-family: Roboto,'Lato',open sans,sans-serif,georgia;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 @media screen and (max-width: 990px){
@@ -214,27 +298,54 @@ tab2 {
         display: none;
     }
     #card2 {
-        margin-top: 80px;
+        padding-top: 80px;
+        padding-left: 80px;
         display: block;
     }
      #cards-bar{
-        margin-top: 15px;
-        margin-left: -15px;
+        padding-top: 15px;
+        padding-right: 15px;
+     }
+     #projdescrip{
+        padding-left: 0px;
      }
 }
 
 @media screen and (max-width: 750px){
     .row{
-        margin-top: 80px;
+        padding-top: 80px;
     }
     #socialWrapper {
         max-width: 55%
+    }
+     #seemore{
+        font-size: 18px;
+        padding-right: 70px;
+    }
+    #back{
+        font-size: 18px;
+        padding-left: 70px;
+    }
+    #endquote {
+        font-size: 18px;
+    }
+    #row4{
+        font-size: 16px;
+    }
+    #button{
+        width: 110px;
+    }
+    .button1 {
+        margin-right: 50px;
+    }
+    .button2 {
+        margin-left: 50px;
     }
 }
 
 @media screen and (max-width: 550px){
     .introdescrip{
-        font-size: 20px;
+        font-size: 22px;
     }
     .row{
         margin-top: 50px;
@@ -245,23 +356,17 @@ tab2 {
     tab2 {
         padding-left: 1em;
     }
-    #endquote {
-        font-size: 15px;
-    }
     #socialWrapper {
         max-width: 65%
     }
     #seemore{
-        font-size: 15px;
+        padding-right: 50px;
     }
     #back{
-        font-size: 15px;
+        padding-left: 50px;
     }
 }
 @media screen and (max-width: 400px){
-    .introdescrip{
-        font-size: 18px;
-    }
     #socialWrapper {
         max-width: 85%
     }

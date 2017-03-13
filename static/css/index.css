@@ -23,6 +23,9 @@
         background-color: #ddd;
     }
 }
+body {
+    overflow-x:hidden; 
+}
 tab {
     padding-left: 1em;
 }
@@ -218,8 +221,6 @@ tab2 {
 #stencilimage {
     height: 200px;
     width: 600px;
-    margin-top: 30px;
-    margin-bottom: 15px;
 }
 .allprojects{
     padding-top: 50px;
@@ -273,7 +274,7 @@ tab2 {
 
 .row4 {
 	text-align: center;
-    padding-top: 0px;
+    padding-top: 60px;
     padding-bottom: 60px;
     font-family: Roboto,'Lato',open sans,sans-serif,georgia;
     font-size: 18px;

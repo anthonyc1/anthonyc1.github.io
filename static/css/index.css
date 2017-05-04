@@ -90,7 +90,7 @@ tab2 {
     padding-top: 30px;
     padding-bottom: 100px;
     background-image: url("../images/coding.jpeg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 #footerimage{
     opacity: 0.9;

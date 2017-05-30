@@ -97,8 +97,8 @@ tab2 {
 
 #headerband {
     height: 12px;
-    width: 80%;
-    background-color: teal;
+    width: 50%;
+    background-color: rgba(0,20,100,1);
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px;
@@ -116,7 +116,7 @@ tab2 {
 #titleband{
     height: 6px;
     width: 15%;
-    background-color: teal;
+    background-color: maroon;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
@@ -130,28 +130,37 @@ tab2 {
     margin-left: auto;
 }
 
+#backdrop {
+    background-image: url("images/coding.jpeg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 .row {
     padding-top: 180px;
     padding-bottom: 180px;
-    background-image: url("../images/mepresenting.jpeg");
+    background-image: url("images/mepresenting.jpeg");
     background-size: cover;
 }
 .row2 {
     padding-top: 30px;
     padding-bottom: 100px;
-    background-image: url("../images/coding2.jpeg");
-    background-size: cover;
+    background:rgba(0,20,100,0.4);
 }
 
 .row3 {
     padding-top: 30px;
     padding-bottom: 100px;
-    background-image: url("../images/coding.jpeg");
-    background-size: cover;
+    background:rgba(100,40,40,0.4);
+
 }
 .row4 {
     padding-top: 40px;
     padding-bottom: 80px;
+    background-color: white;
 }
 
 .intro {
@@ -186,7 +195,7 @@ tab2 {
 #projband{
     height: 6px;
     width: 15%;
-    background-color: teal;
+    background-color: maroon;
     margin-top: -10px;
     margin-bottom: 10px;
 }
@@ -197,6 +206,16 @@ tab2 {
 }
 .allprojects{
     padding-top: 50px;
+}
+
+.btn-default {
+    color: darkblue;
+    border-width: 2px;
+}
+.btn-default:hover {
+    color: black;
+    border-width: 2px;
+    background-color: rgba(100,40,40,0.4);
 }
 
 #card2{
@@ -225,7 +244,7 @@ tab2 {
 #stayintouch {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #ECEFF4;
+    background:rgba(10,50,100,0.2);
 }
 
 #buttons-bar{
@@ -272,9 +291,6 @@ tab2 {
 
 
 @media screen and (max-width: 800px){
-    .intro{
-        font-size: 45px;
-    }
     
 }
 
@@ -286,7 +302,8 @@ tab2 {
         padding-left: 1em;
     }
     .row{
-        padding-top: 80px;
+        padding-top: 120px;
+        padding-bottom: 120px;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -295,6 +312,10 @@ tab2 {
     }
     #endquote {
         font-size: 20px;
+    }
+    #row2{
+        padding-right: 10px;
+        padding-left: 10px; 
     }
     #row4{
         font-size: 16px;
@@ -321,6 +342,9 @@ tab2 {
 }
 
 @media screen and (max-width: 550px){
+    #headerband{
+        width: 70%;
+    }
     .introdescrip{
         font-size: 20px;
     }
@@ -339,13 +363,16 @@ tab2 {
         padding-left: 10px;
     }
     #aboutme {
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
 }
 
 @media screen and (max-width: 400px){
+    #headerband{
+        width: 80%;
+    }
     #socialWrapper {
         max-width: 85%
     }

@@ -4,24 +4,24 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Anthony Chan - Software Developer</title>
-	<meta name="description" content="Anthony Chan - Software Developer">
+	<title>Anthony Chan - Personal Site</title>
+	<meta name="description" content="Anthony Chan - Personal Site">
 	<!--Icons-->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="../static/images/favicon.ico" type="image/x-icon">
 	<!--Open graph tags-->
-	<meta property="og:title" content="Anthony Chan - Software Developer">
-	<meta property="og:site_name" content="Anthony Chan - Software Developer">
-	<meta property="og:url" content="http://anthonyc1.github.io" >
+	<meta property="og:title" content="Anthony Chan - Personal Site">
+	<meta property="og:site_name" content="Anthony Chan - Personal Site">
+	<meta property="og:url" content="https://anthonyc1.github.io" >
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="https://github.com/anthonyc1/anthonyc1.github.io/blob/master/static/images/profile.png?raw=true">
-	<meta property="og:description" content="Personal website of aspiring software developer based in NYC">
+	<meta property="og:image" content="https://github.com/anthonyc1/anthonyc1.github.io/blob/master/static/images/anthonyprofile.jpg?raw=true">
+	<meta property="og:description" content="Software Developer">
 	<!--Twitter card tags-->
 	<meta name="twitter:card" content="summary" >
-	<meta name="twitter:title" content="Anthony Chan - Software Developer">
-	<meta name="twitter:description" content="Personal website of aspiring software developer based in NYC">
-	<meta name="twitter:url" content="http://anthonyc1.github.io">
-	<meta name="twitter:image" content="https://github.com/anthonyc1/anthonyc1.github.io/blob/master/static/images/profile.png?raw=true">
+	<meta name="twitter:title" content="Anthony Chan - Personal Site">
+	<meta name="twitter:description" content="Software Developer">
+	<meta name="twitter:url" content="https://anthonyc1.github.io">
+	<meta name="twitter:image" content="https://github.com/anthonyc1/anthonyc1.github.io/blob/master/static/images/anthonyprofile.jpg?raw=true">
 	<!--Bootstrap & FontAwesome Frameworks-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -40,7 +40,7 @@
 
 </script>
 	<!--Page specific stylesheets-->
-	<link rel="stylesheet" href="static/css/index.css">
+	<link rel="stylesheet" href="static/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Open+Sans" rel="stylesheet">
 
 </head>
@@ -68,25 +68,26 @@
 		</div>
 	</nav>
 	<!--Container for main site-->
+	<div id="backdrop"></div>
 	<div id="home">
 		<div class="row">
 			<div id="headerband"></div>
-			<p class="intro"><strong>Hi. I'm Anthony</strong></p>
-			<p class="introdescrip">Student | Software Developer | Creator</p>
+			<p class="intro" id="shadow"><strong>Hi. I'm Anthony</strong></p>
+			<p class="introdescrip" id="shadow">Student | Software Developer | Creator</p>
 			<div id="headerband"></div>
 		</div>
 		<div class="row2">
 			<div id="aboutme">
-				<p id="title">who am i?</p>
+				<p id="titleinverse">who am i?</p>
 				<div id="titleband"></div>
 				<div><center><img class="img-circle" src="static/images/anthonyprofile.jpg" width="230px"></center></div>
-				<p class="descrip" id="shadow">I'm Anthony Chan. I study computer science, grew up in NYC, and love to challenge myself academically. From competing in my high school math team to collaborating with others on hackathon projects, I enjoy the intellectual challenge and the process of solving a problem. 
+				<p class="descrip" id="inverse">I'm Anthony Chan. I study computer science, grew up in NYC, and love to challenge myself academically. From competing in my high school math team to collaborating with others on hackathon projects, I enjoy the intellectual challenge and the process of solving a problem. 
 				<br>I got started in programming by creating websites for a class. From there, I explored the many facets of web development, and created my first web application <strong>Music Mentor</strong>. Ever since, I sought to expose myself to other subfields of computer science and software development, from programming for microprocessors to building Android apps.
 				<br>I am a strong believer in working hard and learning by doing. I've never stopped my journey to learn and to continue creating. I enjoy what I do.
-				<p id="title">my hobbies</p>
+				<p id="titleinverse">my hobbies</p>
 				<div id="titleband"></div>
 					<div id="center">
-						<p class="descrip" id="shadow">
+						<p class="descrip" id="inverse">
 						Piano playing<br>
 						Running and Weight Lifting<br>
 						Watching TV shows and my favorite Youtubers<br>
@@ -150,7 +151,7 @@
 					<br>
 					<br>
 					This is a personal project started during the winter break of '16-17 and finished in February '17.<br>
-					Created in: JavaScript, Node.js, Python, Flask, HTML, CSS<br>
+					Created with: JavaScript, Node.js, Python, Flask, HTML, CSS<br>
 					</div>
 				</div>
 				<div id="buttons-bar">
@@ -184,7 +185,7 @@
 						<br>
 						This was a 2-person project done in February '17.<br>
 						Other team members: Shaan Sheikh<br>
-						Created in: HTML, CSS, Bootstrap, Python, Flask, SQLite3
+						Created with: HTML, CSS, Bootstrap, Python, Flask, SQLite3
 					</p><br>
 				</div>
 			</div>
@@ -201,7 +202,7 @@
 					<p>A website created along the theme of helping the environment. Our site aims to educate and help consumers of electronics in NYC to reduce their electronic wastes to ideally "zero".<br>
 					<br>This was a hackathon project submitted to Social Hack Day in Janurary '17.<br>
 					Team Members: Jon Reyes, Kitty Liu<br>
-					Created in: HTML, CSS, JavaScript, d3.js
+					Created with: HTML, CSS, JavaScript, d3.js
 					</p><br>
 				</div>
 			</div>
@@ -218,7 +219,7 @@
 					<p>We wanted to use LittleBits to create a device that we may use in everyday life. We came up with the exercise counter, which uses an Arduino bit and some sensors to count the number of repetitions for a number of exercises, such as pushups and squats.<br>
 						<br>This was a hackathon project submitted to HACKfEAT in October '16.
 						<br>Team Members: Zhengyang Liu
-						<br>Created in: Arduino, LittleBits
+						<br>Created with: Arduino, LittleBits
 					</p><br>
 				</div>
 			</div>
@@ -230,18 +231,18 @@
 
 	<!-- Stay in Touch section -->
 	<div id="stayintouch">
-		<p id="title">let's stay in touch:</p>
+		<p id="titleinverse">let's stay in touch:</p>
 			<div id="titleband"></div>
 		<div id="socialWrapper">
 				<div id="socialicon">
-					<a href="https://github.com/anthonyc1" target="_blank"><i class="fa fa-github fa-4x" style="color:#292a2b"></i></a><br><p>Github</p></div>
+					<a href="https://github.com/anthonyc1" target="_blank"><i class="fa fa-github fa-4x" style="color:white"></i></a><br><p id="inverse">Github</p></div>
 				<div id="socialicon">
-					<a href="https://www.linkedin.com/in/anthonychan0123" target="_blank"><i class="fa fa-linkedin fa-4x" style="color:#292a2b"></i></a><br><p>LinkedIn</p></div>
+					<a href="https://www.linkedin.com/in/anthonychan0123" target="_blank"><i class="fa fa-linkedin fa-4x" style="color:white"></i></a><br><p id="inverse">LinkedIn</p></div>
 				<div id="socialicon">
-					<a href='mai&#108;to&#58;a&#110;t&#104;%6Fny&#99;&#104;an&#48;%31&#50;3&#64;gm&#97;il&#46;c%&#54;Fm'&#97;nthon&#121;&#99;han012&#51;&#64;gma&#105;&#108;&#46;c&#111;&#109;><i class="fa fa-envelope fa-4x" aria-hidden="true" style="color:#292a2b" target="_blank"></i></a><br><p>Email</p></div>
+					<a href='mai&#108;to&#58;a&#110;t&#104;%6Fny&#99;&#104;an&#48;%31&#50;3&#64;gm&#97;il&#46;c%&#54;Fm'&#97;nthon&#121;&#99;han012&#51;&#64;gma&#105;&#108;&#46;c&#111;&#109;><i class="fa fa-envelope fa-4x" aria-hidden="true" style="color:white" target="_blank"></i></a><br><p id="inverse">Email</p></div>
 			</div>
 		<div id="footer">
-			Copyright &copy 2017 Anthony Chan
+			<p id="inverse">Copyright &copy 2017 Anthony Chan</p>
 		</div>
 			
 	</div>

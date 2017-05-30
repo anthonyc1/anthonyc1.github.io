@@ -36,8 +36,10 @@ tab1 {
 tab2 {
     padding-left: 10em;
 }
-#space {
-    height: 60px;
+#footer {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 50px;
 }
 
 .row {
@@ -89,11 +91,23 @@ tab2 {
 .row2 {
     padding-top: 30px;
     padding-bottom: 100px;
-    background-image: url("../images/coding.jpeg");
-    background-repeat: repeat-y;
+    background-image: url("../images/coding2.jpeg");
+    background-size: cover;
 }
-#footerimage{
-    opacity: 0.9;
+
+.row3 {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-image: url("../images/coding.jpeg");
+    background-size: cover;
+}
+
+#skills-bar{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    justify-content:space-between;
 }
 
 #titleband{
@@ -104,79 +118,6 @@ tab2 {
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-#button {
-  border-radius: 5px;
-  background-color: white;
-  border: teal;
-  border-style: double;
-  color: teal;
-  text-align: center;
-  font-size: 15px;
-  padding: 8px;
-  width: 120px;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.button1 {
-    float: right;
-    margin-right: 150px;
-}
-
-.button1 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button1:hover span {
-  padding-right: 25px;
-}
-
-.button1:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.button2 {
-  margin-left: 150px;
-}
-
-.button2 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button2 span:after {
-  content: '\00ab';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  left: -20px;
-  transition: 0.5s;
-}
-
-.button2:hover span {
-  padding-left: 25px;
-}
-
-.button2:hover span:after {
-  opacity: 1;
-  left: 0;
 }
 
 #aboutme {
@@ -211,6 +152,18 @@ tab2 {
     padding-top: 20px;
 }
 
+#header {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: open sans,'Lato',sans-serif,georgia;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
 .titledescrip {
     display: block;
     font-size: 18px;
@@ -219,7 +172,7 @@ tab2 {
     padding-bottom: 35px;
 }
 
-.row3 {
+.row4 {
     padding-top: 40px;
     padding-bottom: 80px;
 }
@@ -269,24 +222,9 @@ tab2 {
 }
 
 #stayintouch {
-    padding-top: 40px;
-    padding-bottom: 70px;
-    background-color: #C4D6D6;
-}
-
-.row4 {
-	text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    font-family: Roboto,'Lato',open sans,sans-serif,georgia;
-    font-size: 18px;
-    background-color: teal;
-}
-
-#endquote {
-	font-style: italic;
-	font-family: Roboto,'Lato',open sans,sans-serif,georgia;
-	font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ECEFF4;
 }
 
 @media screen and (max-width: 990px){
@@ -394,10 +332,6 @@ tab2 {
         padding-right: 50px;
         padding-left: 50px;
     }
-    #stencilimage {
-        height: 180px;
-        max-width: 100%;
-}
 
 }
 

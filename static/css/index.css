@@ -10,22 +10,33 @@
 
 .navbar-toggle {
     position: relative;
+    color: white;
     float: right;
     margin-right: 15px;
     margin-top: 8px;
     background-color: transparent;
     border: 1px solid transparent;
-    border-color: #ddd;
+    border-color: white;
+}
+
+.navbar-nav li {
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 766px) {
     #mainNavBar {
-        background-color: #ddd;
+        background-color: black;
     }
 }
+
+
 body {
     overflow-x:hidden; 
 }
+
 tab {
     padding-left: 1em;
 }
@@ -36,41 +47,52 @@ tab1 {
 tab2 {
     padding-left: 10em;
 }
-#footer {
-    text-align: right;
-    margin-right: 30px;
-    margin-top: 50px;
-}
 
-.row {
-	padding-top: 200px;
-    padding-bottom: 130px;
-    background-color: #ECEFF4;
-}
 
-.intro {
-	font-size: 70px;
-	font-family: 'Lato',open sans,sans-serif,georgia;
-	display: block;
-    text-align: center;
-}
-
-.introdescrip {
-    display: block;
+#header {
     font-size: 24px;
+    text-decoration: underline;
     font-weight: bold;
     font-family: open sans,'Lato',sans-serif,georgia;
-    text-align: center;
-
 }
 
-#socialWrapper {
-    display:flex;
-    justify-content:space-between;
-    max-width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+#inverse {
+    color:white;
+    text-shadow: 1.2px 1.2px black;
+}
+
+#shadow {
+    color: black;
+    text-shadow: 1.2px 1.2px transparent;
+}
+
+#title {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 30px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+
+#titleinverse {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 30px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+
+.titledescrip {
+    display: block;
+    font-size: 18px;
+    font-family: open sans,'Lato',sans-serif,georgia;
+    text-align: center;
+    padding-bottom: 35px;
 }
 
 #headerband {
@@ -81,25 +103,6 @@ tab2 {
     margin-left: auto;
     margin-bottom: 30px;
     margin-top: 40px;
-}
-
-#inverse {
-    color:white;
-    text-shadow: 1.2px 1.2px black;
-}
-
-.row2 {
-    padding-top: 30px;
-    padding-bottom: 100px;
-    background-image: url("../images/coding2.jpeg");
-    background-size: cover;
-}
-
-.row3 {
-    padding-top: 30px;
-    padding-bottom: 100px;
-    background-image: url("../images/coding.jpeg");
-    background-size: cover;
 }
 
 #skills-bar{
@@ -127,83 +130,55 @@ tab2 {
     margin-left: auto;
 }
 
-#title {
-    text-align: center;
-    color: black;
-    text-shadow: 3px 3px white;
-    font-size: 30px;
-    font-family: 'Lato',open sans,sans-serif,georgia;
+.row {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-image: url("../images/mepresenting.jpeg");
+    background-size: cover;
+}
+.row2 {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-image: url("../images/coding2.jpeg");
+    background-size: cover;
 }
 
-#titleinverse {
-    text-align: center;
-    color: white;
-    text-shadow: 3px 3px black;
-    font-size: 30px;
-    font-family: 'Lato',open sans,sans-serif,georgia;
+.row3 {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-image: url("../images/coding.jpeg");
+    background-size: cover;
 }
-
-.descrip {
-    display: block;
-	font-size: 20px;
-	font-family: open sans,'Lato',sans-serif,georgia;
-    text-align: left;
-    padding-bottom: 35px;
-    padding-top: 20px;
-}
-
-#header {
-    font-size: 24px;
-    text-decoration: underline;
-    font-weight: bold;
-    font-family: open sans,'Lato',sans-serif,georgia;
-}
-
-#center {
-    display: flex;
-    justify-content: center;
-}
-
-.titledescrip {
-    display: block;
-    font-size: 18px;
-    font-family: open sans,'Lato',sans-serif,georgia;
-    text-align: center;
-    padding-bottom: 35px;
-}
-
 .row4 {
     padding-top: 40px;
     padding-bottom: 80px;
 }
 
-.allprojects{
-    padding-top: 50px;
+.intro {
+    font-size: 70px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+    display: block;
+    text-align: center;
 }
 
-#card2{
-    display:none;
+.introdescrip {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: open sans,'Lato',sans-serif,georgia;
+    text-align: center;
 }
 
-#cards-bar {
-    display: flex;
-    padding-top: 60px;
-    padding-left: 40px;
-}
-#buttons-bar{
-    display: flex;
-    max-width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 60px;
-    justify-content:space-between;
+.descrip {
+    display: block;
+    font-size: 20px;
+    font-family: open sans,'Lato',sans-serif,georgia;
+    text-align: left;
+    padding-bottom: 35px;
+    padding-top: 20px;
 }
 
-.btn-primary:hover{
-    background: rgba(0,0,0,0);
-    color: #3a7999;
-    box-shadow: inset 0 0 0 3px #3a7999;
-}
+
 #projtitle {
     font-size: 30px;
     font-family: 'Lato',open sans,sans-serif,georgia;
@@ -220,11 +195,46 @@ tab2 {
     font-size: 20px;
     font-family: 'Lato',open sans,sans-serif,georgia;
 }
+.allprojects{
+    padding-top: 50px;
+}
 
+#card2{
+    display:none;
+}
+
+#cards-bar {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+#socialWrapper {
+    display:flex;
+    justify-content:space-between;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+#footer {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
 #stayintouch {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #ECEFF4;
+}
+
+#buttons-bar{
+    display: flex;
+    max-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+    justify-content:space-between;
 }
 
 @media screen and (max-width: 990px){

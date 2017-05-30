@@ -46,10 +46,10 @@
 </head>
 <body>
 	<!--Nav bar-->
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="./index.html" class="navbar-brand"><img alt="ANTHONY CHAN" src="static/images/favicon.png" height="30" width="35"></a>
+				<a href="./index.html" class="navbar-brand"><img alt="ANTHONY CHAN" src="static/images/favicon.png" height="40" width="45"></a>
 
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
 					<span class="glyphicon glyphicon-menu-hamburger"></span>
@@ -58,7 +58,8 @@
 
 			<div class="collapse navbar-collapse" id="mainNavBar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#aboutme">About</a></li>
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#stayintouch">Contact</a></li>
@@ -76,53 +77,54 @@
 		</div>
 		<div class="row2">
 			<div id="aboutme">
-			<p id="title">who am i?</p>
-			<div id="titleband"></div>
-			<div><center><img class="img-circle" src="static/images/anthonyprofile.jpg" width="230px"></center></div>
-			<p class="descrip">I'm Anthony Chan. I study computer science, grew up in NYC, and love to challenge myself academically. From competing in my high school math team to collaborating with others on hackathon projects, I enjoy the intellectual challenge and the process of solving a problem. 
-			<br>I got started in programming by creating websites for a class. From there, I explored the many facets of web development, by creating my first web application <strong>Music Mentor</strong>. Ever since, I sought to expose myself to other subfields of computer science and software development, from programming for microprocessors to building Android apps.
-			<br>I am a strong believer in working hard and learning by doing. I've never stopped my journey to learn and to continue creating. I enjoy what I do.
-			<p id="title">my hobbies</p>
-			<div id="titleband"></div>
-			<div id="center">
-			<p class="descrip">
-			Piano playing<br>
-			Running and Weight Lifting<br>
-			Watching TV shows and my favorite Youtubers<br>
-			Playing card/board games<br>
-			</p>
+				<p id="title">who am i?</p>
+				<div id="titleband"></div>
+				<div><center><img class="img-circle" src="static/images/anthonyprofile.jpg" width="230px"></center></div>
+				<p class="descrip" id="shadow">I'm Anthony Chan. I study computer science, grew up in NYC, and love to challenge myself academically. From competing in my high school math team to collaborating with others on hackathon projects, I enjoy the intellectual challenge and the process of solving a problem. 
+				<br>I got started in programming by creating websites for a class. From there, I explored the many facets of web development, and created my first web application <strong>Music Mentor</strong>. Ever since, I sought to expose myself to other subfields of computer science and software development, from programming for microprocessors to building Android apps.
+				<br>I am a strong believer in working hard and learning by doing. I've never stopped my journey to learn and to continue creating. I enjoy what I do.
+				<p id="title">my hobbies</p>
+				<div id="titleband"></div>
+					<div id="center">
+						<p class="descrip" id="shadow">
+						Piano playing<br>
+						Running and Weight Lifting<br>
+						Watching TV shows and my favorite Youtubers<br>
+						Playing card/board games<br>
+						</p>
+					</div>
 			</div>
 		</div>
-		</div>
-		<div class="row3">
+		<div class="row3" id="skills">
 			<div id="aboutme">
 			<p id="titleinverse">my skills</p>
 			<div id="titleband"></div>
 			<div id="skills-bar">
-			<div>
-				<p class="descrip" id="inverse">
-				<span id="header">Web Development</span><br>
-				HTML/HTML5<br>
-				CSS/CSS3/Responsive Design<br>
-				JavaScript<br>
-				node.js<br>
-				Python<br>
-				Flask/Django<br>
-				</p>
+				<div>
+					<p class="descrip" id="inverse">
+					<span id="header">Web</span><br>
+					HTML / HTML5<br>
+					CSS / CSS3 / Responsive Design<br>
+					JavaScript<br>
+					node.js<br>
+					Python<br>
+					Flask / Django<br>
+					</p>
+				</div>
+				<div>
+					<p class="descrip" id="inverse">
+					<span id="header">Software/Tools</span><br>
+					Linux / Unix OS<br>
+					Java / JavaFX<br>
+					Eclipse<br>
+					Android Studio<br>
+					Git<br>
+					Excel<br>
+					Arduino<br>
+					</p>
+				</div>
 			</div>
 			<div>
-				<p class="descrip" id="inverse">
-				<span id="header">Software/Tools</span><br>
-				Linux/Unix OS<br>
-				Java/JavaFX<br>
-				Eclipse<br>
-				Android Studio<br>
-				Git<br>
-				Excel<br>
-				</p>
-			</div>
-		</div>
-		<div>
 				<p class="descrip" id="inverse">
 				<span id="header">And Also...</span><br>
 				Stony Brook University (Exp Grad. 2019)<br>
@@ -137,7 +139,6 @@
 		<div class="row4" id="projects">
 			<p id="title">projects i've done:</p>
 			<div id="titleband"></div>
-			<p class="titledescrip">Check them out!</p>
 			<!-- First Project -->
 			<div class="col-md-3" id="card2"><img src="static/images/musicmentoricon.png" class="img-responsive" width="300px"></div>
 			<div id="cards-bar">
@@ -145,11 +146,11 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">Music Mentor</p>
 					<div id="projband"></div>
-					<p>Jan-Feb '17 | JavaScript, Node.js, Python, Flask, HTML, CSS<br>
-					<em>Personal project</em><br>
-					•<tab>A Facebook Messenger chat bot and a web application that serves as a tool for users learn music theory.<br>
-					•<tab>Implemented Node.js backend and Messenger platform capabilities for the bot. Created web app using Flask web framework as backend, python algorithms, and frontend web technologies.
-					</p><br>
+					<p>This online tool will help users learn music theory in a fun and innovative way. The slick design of the web application makes learn the core concepts of music theory effortless. Users can enjoy the various functions the web app supports, such as converting between music scales and creating chords. The web application has a companion Messenger bot that identifies any scale the user requests, in addition to other chat features.
+					<br>
+					<br>
+					This is a personal project started during the winter break of '16-17 and finished in February '17.<br>
+					Created in: JavaScript, Node.js, Python, Flask, HTML, CSS<br>
 					</div>
 				</div>
 				<div id="buttons-bar">
@@ -163,9 +164,9 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">Portfolio</p>
 					<div id="projband"></div>
-					<p>Fall '16 - present | Python, Java (so far)<br>
-					<em>Personal projects, experiments, and everything else</em><br>
-					•<tab>A portfolio of miscellaneous work I've done to learn something new or to implement something interesting.
+					<p>A portfolio of miscellaneous work I've done to learn something new or to implement something interesting. It contains personal projects, experiments, and everything else<br>
+					<br>
+					Has content from as early as September '16.
 					</p><br>
 				</div>
 			</div>
@@ -179,11 +180,11 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">CollegeCare</p>
 					<div id="projband"></div>
-					<p>Feb '17 | HTML, CSS, Bootstrap, Python, Flask, SQLite3<br>
-					<em>Making College Possible Coding Challenge (team of 2)</em><br>
-					•<tab>A web application that provides valuable resources, mentoring opportunities, and an open forum to aid students to find an affordable college education in New York State.<br>
-					•<tab>Created frontend UI, designed graphics, and wrote content. Collaborated on backend and database.<br>
-					•<tab>Placed top 9 in NY State Coding competition.
+					<p>A web application created as part of a NY State Making College Possible Coding competition. The purpose of our application is to provide valuable resources, mentoring opportunities, and an open forum to aid students to find an affordable college education in New York State. We were placed top 9 in whole competition out of over 60 competitors.<br>
+						<br>
+						This was a 2-person project done in February '17.<br>
+						Other team members: Shaan Sheikh<br>
+						Created in: HTML, CSS, Bootstrap, Python, Flask, SQLite3
 					</p><br>
 				</div>
 			</div>
@@ -197,10 +198,10 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">Zero Waste</p>
 					<div id="projband"></div>
-					<p>Jan '17 | HTML, CSS, JavaScript, d3.js<br>
-					<em>Social Hack Day (team of 3)</em><br>
-					•<tab>A website that aims to help consumers in NYC reduce their electronic wastes to ideally “zero”.<br>
-					•<tab>Created frontend UI.
+					<p>A website created along the theme of helping the environment. Our site aims to educate and help consumers of electronics in NYC to reduce their electronic wastes to ideally "zero".<br>
+					<br>This was a hackathon project submitted to Social Hack Day in Janurary '17.<br>
+					Team Members: Jon Reyes, Kitty Liu<br>
+					Created in: HTML, CSS, JavaScript, d3.js
 					</p><br>
 				</div>
 			</div>
@@ -214,10 +215,10 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">Exercise Counter</p>
 					<div id="projband"></div>
-					<p>Oct '16 | Arduino<br>
-					<em>HACKfEAT Hackathon (team of 2)</em><br>
-					•<tab>A device made of LittleBits that counts the number of exercise repetitions a user does.<br>
-					•<tab>Assembled device and wrote code for Arduino.
+					<p>We wanted to use LittleBits to create a device that we may use in everyday life. We came up with the exercise counter, which uses an Arduino bit and some sensors to count the number of repetitions for a number of exercises, such as pushups and squats.<br>
+						<br>This was a hackathon project submitted to HACKfEAT in October '16.
+						<br>Team Members: Zhengyang Liu
+						<br>Created in: Arduino, LittleBits
 					</p><br>
 				</div>
 			</div>
@@ -233,11 +234,11 @@
 			<div id="titleband"></div>
 		<div id="socialWrapper">
 				<div id="socialicon">
-				<a href="https://github.com/anthonyc1" target="_blank"><i class="fa fa-github fa-4x" style="color:#292a2b"></i></a><br><p>Github</p></div>
+					<a href="https://github.com/anthonyc1" target="_blank"><i class="fa fa-github fa-4x" style="color:#292a2b"></i></a><br><p>Github</p></div>
 				<div id="socialicon">
-				<a href="https://www.linkedin.com/in/anthonychan0123" target="_blank"><i class="fa fa-linkedin fa-4x" style="color:#292a2b"></i></a><br><p>LinkedIn</p></div>
+					<a href="https://www.linkedin.com/in/anthonychan0123" target="_blank"><i class="fa fa-linkedin fa-4x" style="color:#292a2b"></i></a><br><p>LinkedIn</p></div>
 				<div id="socialicon">
-				<a href='mai&#108;to&#58;a&#110;t&#104;%6Fny&#99;&#104;an&#48;%31&#50;3&#64;gm&#97;il&#46;c%&#54;Fm'&#97;nthon&#121;&#99;han012&#51;&#64;gma&#105;&#108;&#46;c&#111;&#109;><i class="fa fa-envelope fa-4x" aria-hidden="true" style="color:#292a2b" target="_blank"></i></a><br><p>Email</p></div>
+					<a href='mai&#108;to&#58;a&#110;t&#104;%6Fny&#99;&#104;an&#48;%31&#50;3&#64;gm&#97;il&#46;c%&#54;Fm'&#97;nthon&#121;&#99;han012&#51;&#64;gma&#105;&#108;&#46;c&#111;&#109;><i class="fa fa-envelope fa-4x" aria-hidden="true" style="color:#292a2b" target="_blank"></i></a><br><p>Email</p></div>
 			</div>
 		<div id="footer">
 			Copyright &copy 2017 Anthony Chan

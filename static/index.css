@@ -239,7 +239,7 @@ tab2 {
 #footer {
     text-align: right;
     padding-right: 30px;
-    padding-top: 300px;
+    padding-top: 100px;
 }
 
 #inversefooter {
@@ -251,8 +251,8 @@ tab2 {
     text-shadow: 1.2px 1.2px black;
 }
 #stayintouch {
-    padding-top: 80px;
-    padding-bottom: 30px;
+    padding-top: 120px;
+    padding-bottom: 100px;
     background:rgba(10,50,100,0.2);
 }
 

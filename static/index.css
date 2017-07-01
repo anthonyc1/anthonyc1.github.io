@@ -35,10 +35,7 @@ tab {
     padding-left: 1em;
 }
 tab1 {
-    padding-left: 4em;
-}
-tab2 {
-    padding-left: 10em;
+    padding-left: 2em;
 }
 #header {
     font-size: 24px;
@@ -118,9 +115,10 @@ tab2 {
 .row {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url("images/mepresenting.jpeg");
+    background-image: url("images/coverpic.jpeg");
     background-size: cover;
 }
+
 .row2 {
     padding-top: 55px;
     padding-bottom: 100px;

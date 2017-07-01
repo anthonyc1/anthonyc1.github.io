@@ -81,7 +81,6 @@ tab1 {
     margin-bottom: 30px;
     margin-top: 40px;
 }
-
 #skills-bar{
     display: flex;
     margin-right: auto;
@@ -218,7 +217,7 @@ tab1 {
     text-shadow: 1.2px 1.2px black;
 }
 #stayintouch {
-    padding-top: 140px;
+    padding-top: 150px;
     padding-bottom: 10px;
     background:rgba(10,50,100,0.2);
 }

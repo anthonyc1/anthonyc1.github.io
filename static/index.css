@@ -32,6 +32,7 @@ html, body {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     height: 100%;
+    min-width: 100%;
 }
 tab {
     padding-left: 1em;
@@ -100,8 +101,8 @@ tab1 {
     margin-bottom: 10px;
 }
 #aboutme {
-    padding-left: 200px;
     padding-right: 200px;
+    padding-left: 200px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -155,8 +156,8 @@ tab1 {
 }
 .descrip {
     display: block;
-    font-size: 20px;
-    font-family: open sans,'Lato',sans-serif,georgia;
+    font-size: 18px;
+    font-family: 'Lato',sans-serif,georgia;
     text-align: left;
     padding-bottom: 35px;
     padding-top: 20px;
@@ -255,21 +256,22 @@ tab1 {
         padding-left: 60px;
      }
      #projdescrip{
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
      }
      #aboutme {
-        padding-right: 100px;
-        padding-left: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 }
 @media screen and (max-width: 750px){
+     .intro {
+        font-size: 60px;
+    }
     tab1 {
         padding-left: 2em;
     }
-    tab2 {
-        padding-left: 1em;
-    }
+
     .row{
         padding-top: 120px;
         padding-bottom: 120px;
@@ -292,22 +294,30 @@ tab1 {
     #button{
         width: 110px;
     }
-    .button1 {
-        margin-right: 50px;
-    }
-    .button2 {
-        margin-left: 50px;
+    #title, #titleinverse{
+        font-size: 26px;
     }
     #cards-bar, #card2 {
         padding-left: 25px;
     }
 }
 @media screen and (max-width: 550px){
+     #aboutme {
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .intro {
+        font-size: 50px;
+    }
     #headerband{
         width: 70%;
     }
-    .introdescrip{
-        font-size: 20px;
+    #projtitle {
+        font-size: 22px;
+    }
+    .introdescrip, #projdescrip {
+        font-size: 17px;
     }
     .row{
         padding-left: 15px;
@@ -318,10 +328,6 @@ tab1 {
         max-width: 65%;
     }
     #cards-bar, #card2 {
-        padding-left: 10px;
-    }
-    #aboutme {
-        padding-right: 10px;
         padding-left: 10px;
     }
 }

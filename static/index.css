@@ -46,6 +46,9 @@ tab1 {
     font-weight: bold;
     font-family: open sans,'Lato',sans-serif,georgia;
 }
+.row p span {
+    color: lightblue;
+}
 #center {
     display: flex;
     justify-content: center;
@@ -132,7 +135,7 @@ tab1 {
 .row3 {
     padding-top: 55px;
     padding-bottom: 100px;
-    background:rgba(0,155,155,0.4);
+    background:rgba(0,146,200,0.4);
 
 }
 .row4 {
@@ -154,8 +157,8 @@ tab1 {
     text-align: center;
 }
 #shadow {
-    color: black;
-    text-shadow: 1.2px 1.2px transparent;
+    color: white;
+    text-shadow: 1.2px 1.2px black;
 }
 .descrip {
     display: block;
@@ -172,7 +175,7 @@ tab1 {
 #projband{
     height: 6px;
     width: 15%;
-    background-color: teal;
+    background-color: slateblue;
     margin-top: -10px;
     margin-bottom: 10px;
 }
@@ -191,7 +194,7 @@ tab1 {
 .btn-default:hover {
     color: black;
     border-width: 2px;
-    background-color: rgba(100,40,40,0.4);
+    background-color: rgba(60,100,40,0.4);
 }
 #card2{
     display:none;
@@ -239,10 +242,6 @@ tab1 {
     .row{
         background-image: none;
         : white;
-    }
-    #shadow {
-        color: white;
-        text-shadow: 1.2px 1.2px black;
     }
     tab2 {
         padding-left: 4em;
@@ -332,11 +331,14 @@ tab1 {
         padding-left: 25px;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 520px){
      #aboutme {
         padding-right: 40px;
         padding-left: 40px;
         font-size: 18px;
+    }
+    .row{
+        background-image: none;
     }
     .intro {
         font-size: 50px;

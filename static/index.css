@@ -91,6 +91,9 @@ tab1 {
     padding-bottom: 20px;
     justify-content:space-between;
 }
+#skills-bar2{
+    display: none;
+}
 #titleband{
     height: 6px;
     width: 15%;
@@ -101,8 +104,8 @@ tab1 {
     margin-bottom: 10px;
 }
 #aboutme {
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 280px;
+    padding-left: 280px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -233,6 +236,14 @@ tab1 {
     justify-content:space-between;
 }
 @media screen and (max-width: 990px){
+    .row{
+        background-image: none;
+        : white;
+    }
+    #shadow {
+        color: white;
+        text-shadow: 1.2px 1.2px black;
+    }
     tab2 {
         padding-left: 4em;
     }
@@ -260,23 +271,43 @@ tab1 {
         padding-right: 5px;
      }
      #aboutme {
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 170px;
+        padding-left: 170px;
     }
 }
 @media screen and (max-width: 750px){
+     #aboutme {
+        padding-right: 100px;
+        padding-left: 100px;
+        font-size: 18px;
+    }
      .intro {
         font-size: 60px;
     }
     tab1 {
         padding-left: 2em;
     }
-
+    #header {
+        font-size: 20px;
+    }
     .row{
         padding-top: 120px;
         padding-bottom: 120px;
         padding-left: 30px;
         padding-right: 30px;
+        background-image: url("images/coverpic2.jpeg");;
+    }
+    #skills-bar{
+        display: none;
+    }
+    #skills-bar2{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 20px;
+    }
+    #image {
+        display: none;
     }
     #socialWrapper {
         max-width: 55%
@@ -303,8 +334,8 @@ tab1 {
 }
 @media screen and (max-width: 550px){
      #aboutme {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
         font-size: 18px;
     }
     .intro {

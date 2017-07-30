@@ -47,7 +47,7 @@ tab1 {
     font-family: open sans,'Lato',sans-serif,georgia;
 }
 .row p span {
-    color: lightblue;
+    color: lightgreen;
 }
 #center {
     display: flex;
@@ -106,12 +106,13 @@ tab1 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#aboutme {
+#aboutme,#aboutme2  {
     padding-right: 280px;
     padding-left: 280px;
     margin-right: auto;
     margin-left: auto;
 }
+
 #backdrop {
     background-image: url("images/coding.jpeg");
     background-size: cover;
@@ -159,6 +160,14 @@ tab1 {
 #shadow {
     color: white;
     text-shadow: 1.2px 1.2px black;
+}
+.biodescrip {
+    display: block;
+    font-size: 18px;
+    font-family: sans-serif,georgia;
+    text-align: left;
+    padding-bottom: 35px;
+    padding-top: 20px;
 }
 .descrip {
     display: block;
@@ -238,6 +247,12 @@ tab1 {
     padding-bottom: 60px;
     justify-content:space-between;
 }
+@media screen and (max-width: 1200px){
+    #aboutme2 {
+        padding-right: 170px;
+        padding-left: 170px;
+        }
+    }
 @media screen and (max-width: 990px){
     .row{
         background-image: none;
@@ -268,17 +283,31 @@ tab1 {
      #projdescrip{
         padding-left: 5px;
         padding-right: 5px;
+        font-size: 16px;
      }
      #aboutme {
-        padding-right: 170px;
-        padding-left: 170px;
+        padding-right: 140px;
+        padding-left: 140px;
+    }
+    #aboutme2 {
+        padding-right: 120px;
+        padding-left: 120px;
     }
 }
 @media screen and (max-width: 750px){
      #aboutme {
         padding-right: 100px;
         padding-left: 100px;
+    }
+    #aboutme2{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    .descrip {
         font-size: 18px;
+    }
+    .biodescrip {
+        font-size: 16px;
     }
      .intro {
         font-size: 60px;
@@ -332,10 +361,12 @@ tab1 {
     }
 }
 @media screen and (max-width: 520px){
-     #aboutme {
+     #aboutme, #aboutme2 {
         padding-right: 40px;
         padding-left: 40px;
-        font-size: 18px;
+    }
+    .descrip {
+        font-size: 16px;
     }
     .row{
         background-image: none;
@@ -347,7 +378,7 @@ tab1 {
         width: 70%;
     }
     #projtitle {
-        font-size: 22px;
+        font-size: 24px;
     }
     .introdescrip, #projdescrip {
         font-size: 17px;

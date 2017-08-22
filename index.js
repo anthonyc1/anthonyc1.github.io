@@ -1,10 +1,23 @@
 var links = document.querySelectorAll(".itemLinks");
 var wrapper = document.querySelector("#wrapper");
+var navPrev = document.querySelector("#navPrev");
+var navNext = document.querySelector("#navNext")
+
+// event listeners for navigation
+navPrev.addEventListener('click', navPrevious, false);
+navNext.addEventListener('click', navForward, false);
+
+function navPrevious(e){
+    goToPrevItem();
+}
+function navForward(e){
+    goToNextItem();
+}
  
 // pointer to currently displayed item
 var activeLink = 0;
  
-// event listeners
+// event listeners for links
 for (var i = 0; i < links.length; i++) {
     var link = links[i];
     link.addEventListener('click', setClickedItem, false);
@@ -66,6 +79,19 @@ function goToNextItem() {
         activeLink++;
     } else {
         activeLink = 0;
+    }
+ 
+    var newLink = links[activeLink];
+    changePosition(newLink);
+}
+
+function goToPrevItem() {
+    removeActiveLinks();
+ 
+    if (activeLink > 0) {
+        activeLink--;
+    } else {
+        activeLink = links.length - 1;
     }
  
     var newLink = links[activeLink];

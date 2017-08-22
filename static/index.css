@@ -240,6 +240,39 @@ tab1 {
     color: #FFFFFF;
 }
 
+.navigation{
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin-top: 6px;
+    display:flex;
+    justify-content:space-between;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+#navPrev{
+    text-align: left;
+    padding-left: 30px;
+}
+#navNext{
+    text-align: right;
+    padding-right: 30px;
+}
+#navPrev button, #navNext button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid lightgreen;
+}
+#navPrev button:hover, #navNext button:hover {
+    background: lightgreen;
+    color: white;
+}
+
 #projtitle {
     font-size: 30px;
     font-family: 'Lato',open sans,sans-serif,georgia;

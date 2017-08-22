@@ -79,7 +79,7 @@ tab1 {
     padding-bottom: 35px;
 }
 #headerband {
-    height: 12px;
+    height: 15px;
     width: 50%;
     background-color: rgba(0,20,100,1);
     margin-right: auto;
@@ -98,13 +98,14 @@ tab1 {
     display: none;
 }
 #titleband{
-    height: 6px;
+    height: 4px;
     width: 15%;
     background-color: lightgreen;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 #aboutme {
     margin-right: auto;
@@ -193,7 +194,7 @@ tab1 {
     font-family: 'Lato',open sans,sans-serif,georgia;
 }
 #projband{
-    height: 6px;
+    height: 4px;
     width: 15%;
     background-color: lightgreen;
     margin-top: -10px;

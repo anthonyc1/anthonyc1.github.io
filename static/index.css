@@ -499,6 +499,9 @@ tab1 {
     }
 }
 @media screen and (max-width: 400px){
+    #contentContainer{
+        height: 460px;
+    }
     #headerband{
         width: 80%;
     }

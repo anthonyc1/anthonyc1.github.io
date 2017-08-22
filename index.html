@@ -64,10 +64,12 @@
 			<div id="aboutme">
 				<p id="titleinverse">who am i?</p>
 				<div id="titleband"></div>
-				<div id="image"><center><img class="img-circle" src="static/images/anthonyprofile.jpg" width="230px"></center></div>
-				<p class="biodescrip" id="inverse"><tab1>Hi. I'm <strong>Anthony Chan</strong>, a native New Yorker and a second-year undergraduate computer science major. Currently, I work as a <strong>Software QA Engineer Intern</strong> for <a href="http://www.acadiasoft.com/" style="color: #2cccbe" target="_blank">AcadiaSoft Inc.</a> for the 2017 summer.
+				<div id="aboutme-bar">
+				<div class="col-md-5" id="image"><center><img class="img-circle" src="static/images/anthonyprofile.jpg" width="180px"></center></div>
+				<div><p class="biodescrip col-md-8" id="inverse"><tab1>Hi. I'm <strong>Anthony Chan</strong>, a native New Yorker and a second-year undergraduate computer science major. Currently, I work as a <strong>Software QA Engineer Intern</strong> for <a href="http://www.acadiasoft.com/" style="color: #2cccbe" target="_blank">AcadiaSoft Inc.</a> for the 2017 summer.
 				<br><tab1>Outside of work, I'm consistently learning whether it's through reading, attending events, or working on projects that I find meaningful. Most recently, I've attended several hackathons and participated in the Google Games Coding Competition where I won 3rd place.
-				<br><tab1>I'm a strong believer in working hard and in learning by doing.</p>
+				<br><tab1>I'm a strong believer in working hard and in learning by doing.</p></div>
+			</div>
 				<!--
 				<p id="titleinverse">my hobbies</p>
 				<div id="titleband"></div>
@@ -142,8 +144,10 @@
 				<span id="header">And Also...</span><br>
 				• Stony Brook University 2019 + Computer Science<br>
 				• Stuyvesant High School 2014<br>
-				• Dean's List<br>
-				• National Merit Scholar<br>
+				• Dean's List | all semesters<br>
+				• National Merit Scholar | 2014 - present<br>
+				• Third Place in Google Games (Programming Competition) | 2017<br>
+				• First Place in NYCIML Team &amp; Individual (Math Team Competition) | 2011<br>
 				</p>
 			</div>
 		</div>
@@ -152,18 +156,55 @@
 		<div class="row4" id="projects">
 			<p id="title">projects i've done:</p>
 			<div id="titleband"></div>
+
 			<!-- First Project -->
-			<div class="col-md-3" id="card2"><img src="static/images/musicmentoricon.png" class="img-responsive" width="220px"></div>
+			<div class="col-md-3" id="card2"><img src="static/images/project-euler.png" class="img-responsive" width="220px"></div>
 			<div id="cards-bar">
-				<div class="col-md-3" id="card"><img src="static/images/musicmentoricon.png" class="img-responsive" width="400px"></div>
+				<div class="col-md-3" id="card"><img src="static/images/project-euler.png" class="img-responsive" width="400px"></div>
+				<div class="col-md-8" id="projdescrip">
+					<p id="projtitle">Project Euler Solutions</p>
+					<div id="projband"></div>
+					<em>Type:</em> Personal Project<br>
+					<em>Date:</em> Aug 2017 - present<br>
+					<em>Languages &amp; Tools:</em> C++, Java, JavaScript, Python
+					<hr>					
+					<p>Implementation of computational problems in Project Euler. Completed to improve my problem-solving and coding skills as well as to become more proficient with certain languages.<br>
+					</p><br>
+				</div>
+			</div>
+				<center><a href="https://github.com/anthonyc1/ProjectEulerSolutions" target="_blank"><button type="button" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a></center>
+			<p></p>
+
+			<!-- Next Project -->
+			<div class="col-md-3" id="card2"><img src="static/images/project-euler.png" class="img-responsive" width="220px"></div>
+			<div id="cards-bar">
+				<div class="col-md-3" id="card"><img src="static/images/project-euler.png" class="img-responsive" width="400px"></div>
+				<div class="col-md-8" id="projdescrip">
+					<p id="projtitle">Social Sentiment</p>
+					<div id="projband"></div>
+					<em>Type:</em> Personal Project<br>
+					<em>Date:</em> Jul 2017 - present<br>
+					<em>Languages &amp; Tools:</em> JavaScript, jQuery, Node.js, Express, MongoDB, D3.js, NLP
+					<hr>					
+					<p>Developed a chat bot that uses sentiment analysis and social media to aggregate meaningful data.<br>
+					</p><br>
+				</div>
+			</div>
+				<center><a href="https://github.com/anthonyc1/Social-Sentiment" target="_blank"><button type="button" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a></center>
+			<p></p>
+
+			<!-- Next Project -->
+			<div class="col-md-3" id="card2"><img src="static/images/musicmentorcover.png" class="img-responsive" width="220px"></div>
+			<div id="cards-bar">
+				<div class="col-md-3" id="card"><img src="static/images/musicmentorcover.png" class="img-responsive" width="400px"></div>
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">Music Mentor</p>
 					<div id="projband"></div>
+					<em>Type:</em> Personal Project<br>
+					<em>Date:</em> Jan - Feb 2017<br>
+					<em>Languages &amp; Tools:</em> JavaScript, Node.js, Python, Flask, HTML, CSS
+					<hr>
 					<p>This online tool <strong>helps users learn music theory</strong> in a fun and innovative way. The design of the <strong>web application</strong> makes learn the core concepts of music theory effortless. Users can experiment with the various functions the web app supports including converting between music scales and creating chords. Furthermore, users can use the <strong>companion Messenger bot</strong> which augments the learning experience.
-					<br>
-					<br>
-					This is a personal project started during the winter break of '16-17 and finished in February '17.<br>
-					Created with: JavaScript, Node.js, Python, Flask, HTML, CSS<br>
 					</div>
 				</div>
 				<div id="buttons-bar">
@@ -177,11 +218,11 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">College Care</p>
 					<div id="projband"></div>
+					<em>Type:</em> Group Project Submitted to Programming Competition; Teammates: Shaan Sheikh<br>
+					<em>Date:</em> Feb 2017<br>
+					<em>Languages &amp; Tools:</em> HTML, CSS, Bootstrap, Python, Flask, SQLite3
+					<hr>
 					<p>A web application created as part of a NY State Making College Possible Coding competition. The purpose of our application is to provide valuable resources, mentoring opportunities, and an open forum to aid students to find an affordable college education in New York State. We were <strong>placed top 9</strong> in whole competition out of over 60 competitors.<br>
-						<br>
-						This was a 2-person project done in February '17.<br>
-						Team members: Shaan Sheikh<br>
-						Created with: HTML, CSS, Bootstrap, Python, Flask, SQLite3
 					</p><br>
 				</div>
 			</div>
@@ -195,10 +236,11 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">Zero Waste</p>
 					<div id="projband"></div>
+					<em>Type:</em> Group hackathon project completed to Social Hack Day; Teammates: Jon Reyes, Kitty Liu<br>
+					<em>Date:</em> Feb 2017<br>
+					<em>Languages &amp; Tools:</em> HTML, CSS, JavaScript, d3.js
+					<hr>
 					<p>A website created along the theme of helping the environment. Our site aims to educate and help consumers of electronics in NYC to <strong>reduce their electronic wastes</strong> to ideally "zero".<br>
-					<br>This was a hackathon project submitted to Social Hack Day in Janurary '17.<br>
-					Team Members: Jon Reyes, Kitty Liu<br>
-					Created with: HTML, CSS, JavaScript, d3.js
 					</p><br>
 				</div>
 			</div>
@@ -212,9 +254,11 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">Portfolio</p>
 					<div id="projband"></div>
-					<p>A portfolio of miscellaneous work I've done to learn something <strong>new</strong> or to implement something <strong>interesting</strong>. It contains personal projects, experiments, and everything else<br>
-					<br>
-					Has content from September '16 - present.
+					<em>Type:</em> Portfolio of miscellaneous work<br>
+					<em>Date:</em> Sep 2016 - present<br>
+					<em>Languages &amp; Tools:</em> Mainly Python, Java so far.
+					<hr>					
+					<p>A portfolio of miscellaneous work I've done to learn something <strong>new</strong> or to implement something <strong>interesting</strong>. It contains personal projects, experiments, and everything else.<br>
 					</p><br>
 				</div>
 			</div>
@@ -228,10 +272,11 @@
 				<div class="col-md-8" id="projdescrip">
 					<p id="projtitle">Exercise Counter</p>
 					<div id="projband"></div>
+					<em>Type:</em> Group hackathon project submitted to HACKfEAT; Teammates: Zhengyang Liu<br>
+					<em>Date:</em> Oct 2016<br>
+					<em>Languages &amp; Tools:</em> Arduino, LittleBits.
+					<hr>						
 					<p>We wanted to use LittleBits to create a device that we may use in everyday life. We came up with the exercise counter, which uses an <strong>Arduino bit and some sensors</strong> to count the number of repetitions for a number of exercises, such as pushups and squats.<br>
-						<br>This was a hackathon project submitted to HACKfEAT in October '16.
-						<br>Team Members: Zhengyang Liu
-						<br>Created with: Arduino, LittleBits
 					</p><br>
 				</div>
 			</div>

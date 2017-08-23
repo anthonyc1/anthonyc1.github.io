@@ -296,15 +296,18 @@ tab1 {
     padding-top: 50px;
 }
 .btn-default {
-    color: darkblue;
-    border-width: 2px;
+    border-width: 1px;
+    color: black;
 }
 .btn-default:hover {
-    color: black;
-    border-width: 2px;
-    background-color: rgba(60,100,40,0.4);
+    color: white;
+    background-color: lightgreen;
 }
 
+#link_text{
+    font-family: sans-serif;
+    padding-left: 15px;
+}
 #cards-bar {
     display: flex;
     padding-top: 60px;

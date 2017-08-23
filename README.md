@@ -1,4 +1,5 @@
 # Personal Website
 
-## How I built it
-Built with HTML, CSS, Responsive Design, Bootstrap
+Built with HTML, CSS, JavaScript, Responsive Design, Bootstrap
+
+Made with <3

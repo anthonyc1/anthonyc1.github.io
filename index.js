@@ -31,12 +31,12 @@ links[activeLink].classList.add("active");
  
 function setClickedItem(e) {
     removeActiveLinks();
-    //resetTimer();
  
     var clickedLink = e.target;
     activeLink = clickedLink.itemID;
  
     changePosition(clickedLink);
+    resetTimer();
 }
  
 function removeActiveLinks() {
@@ -63,7 +63,7 @@ var timeout;
  
 function startTimer() {
     // wait 6 seconds before calling goInactive
-    timeout = window.setInterval(goToNextItem, 6000);
+    timeout = window.setInterval(goToNextItem, 7000);
 }
 startTimer();
  
@@ -83,6 +83,7 @@ function goToNextItem() {
  
     var newLink = links[activeLink];
     changePosition(newLink);
+    resetTimer();
 }
 
 function goToPrevItem() {
@@ -96,6 +97,7 @@ function goToPrevItem() {
  
     var newLink = links[activeLink];
     changePosition(newLink);
+    resetTimer();
 }
 
 /*

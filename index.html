@@ -18,7 +18,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://github.com/anthonyc1/anthonyc1.github.io/blob/master/static/images/anthonyprofile.jpg?raw=true">
 	<meta property="og:description" content="Software Developer">
-	
+
 	<!--Bootstrap Frameworks-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -40,7 +40,7 @@
 				</button>
 			</div>
 
-			<div class="collapse navbar-collapse" id="mainNavBar">
+			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
@@ -55,26 +55,27 @@
 	<div id="backdrop"></div>
 	<div id="home">
 		<div class="row">
-			<div id="headerband"></div>
+			<div class="headerband"></div>
 			<p class="intro" id="shadow"><strong>Hi. I'm <span>Anthony</span></strong></p>
 			<p class="introdescrip" id="shadow">Student | Programmer | Problem-Solver</p>
-			<div id="headerband"></div>
+			<div class="headerband"></div>
 		</div>
-		<div class="row2" id="about">
-			<div id="aboutme">
-				<p id="titleinverse">who am i?</p>
-				<div id="titleband"></div>
+		<div class="row2" id="aboutme">
+				<div class="col-md-5" id="image2"><center><img class="img-circle" src="static/images/anthonyprofile.jpg" width="180px"></center></div>
+				<p class="titleinverse">about me:</p>
+				<div class="titleband"></div>
 				<div id="aboutme-bar">
 				<div class="col-md-5" id="image"><center><img class="img-circle" src="static/images/anthonyprofile.jpg" width="180px"></center></div>
-				<div><p class="biodescrip col-md-8" id="inverse"><tab1>Hi. I'm <strong>Anthony Chan</strong>, a native New Yorker and a second-year undergraduate computer science major. Recently, I've worked as a <strong>Software QA Engineer Intern</strong> for <a href="http://www.acadiasoft.com/" style="color: #2cccbe" target="_blank">AcadiaSoft Inc.</a> for the 2017 summer. Currently, I am doing co-op with AcadiaSoft Inc. by working remotely for the fall semester of 2017.
+				<div><p class="biodescrip col-md-8 inverse"><tab1>Hi. I'm <strong>Anthony Chan</strong>, a native New Yorker and a second-year undergraduate computer science major.
+					Recently, I've worked as a <strong>Software QA Engineer Intern</strong> for <a href="http://www.acadiasoft.com/" style="color: #2cccbe" target="_blank">AcadiaSoft Inc.</a>
+					for the 2017 summer. Currently, I am doing co-op with AcadiaSoft Inc. by working remotely for the fall semester of 2017.
 				<br><tab1>Outside of work, I'm consistently learning whether it's through reading, attending events, or working on projects that I find meaningful. Most recently, I've attended several hackathons and participated in the Google Games Coding Competition where I won 3rd place.
 				<br><tab1>I'm a strong believer in working hard and in learning by doing.</p></div>
-			</div>
 				<!--
-				<p id="titleinverse">my hobbies</p>
-				<div id="titleband"></div>
+				<p class="titleinverse">my hobbies</p>
+				<div class="titleband"></div>
 					<div id="center">
-						<p class="descrip" id="inverse">
+						<p class="descrip inverse">
 						• Piano playing<br>
 						• Running and weight-lifting<br>
 						• Watching TV shows and my favorite Youtubers<br>
@@ -86,25 +87,24 @@
 		</div>
 		<div class="row3" id="skills">
 			<div id="aboutme2">
-			<p id="title">my skillset</p>
-			<div id="titleband"></div>
+			<p id="title">my skillset:</p>
+			<div class="titleband"></div>
 			<div id="skills-bar">
 				<div>
 					<p class="descrip">
-					<span id="header">Software</span><br>
+					<span class="header">Software</span><br>
 					• Bash Scripting<br>
 					• C++<br>
 					• Java / JavaFX<br>
-					• Eclipse<br>
+					• Eclipse / NetBeans<br>
 					• Git / Heroku<br>
-					• Haskell / Scala<br>
-					• SQL / MongoDB / MySQL<br>
+					• SQL / MySQL<br>
 					• Unix / Linux<br>
 					</p>
 				</div>
 				<div>
 					<p class="descrip">
-					<span id="header">Web</span><br>
+					<span class="header">Web</span><br>
 					• HTML / HTML5<br>
 					• CSS / CSS3 / Responsive Design<br>
 					• Python / Flask<br>
@@ -117,7 +117,7 @@
 			</div>
 			<div id="skills-bar">
 				<p class="descrip">
-				<span id="header">And Also...</span><br>
+				<span class="header">And Also...</span><br>
 				• Stony Brook University 2019 + Computer Science<br>
 				• Stuyvesant High School 2014<br>
 				• Dean's List | all semesters<br>
@@ -129,84 +129,81 @@
 
 			<div id="skills-bar2">
 				<p class="descrip">
-					<span id="header">Software</span><br>
-					• Bash Scripting<br>
-					• C++ / Linux<br>
-					• Java<br>
-					• Eclipse<br>
+					<span class="header">Software</span><br>
+					• C++ / Linux / Java<br>
+					• Eclipse / NetBeans<br>
 					• Git / Heroku<br>
-					• Haskell / Scala<br>
-					• SQL / MongoDB / MySQL<br>
+					• SQL / MySQL<br>
 					<br>
-					<span id="header">Web</span><br>
+					<span class="header">Web</span><br>
 					• HTML / CSS / Responsive Design<br>
 					• Python / Flask<br>
-					• JavaScript / Node.js / jQuery<br>
-					• Selenium WebDriver<br>
-					• Test Automation<br>
+					• JavaScript / Node.js<br>
+					• Selenium WebDriver / Test Automation<br>
 					<br>
-					<span id="header">And Also...</span><br>
+					<span class="header">And Also...</span><br>
 					• Stony Brook University 2019 + Computer Science<br>
 					• Stuyvesant High School 2014<br>
 					• Dean's List | all semesters<br>
-					• National Merit Scholar | 2014 - present<br>
 					• Third Place in Google Games (Programming Competition) | 2017<br>
-					• First Place in NYCIML Team &amp; Individual (Math Team Competition) | 2011<br>
 					</p>
 			</div>
 		</div>
 		</div>
 		</div>
 		<div class="row4" id="projects">
-			<p id="titleinverse">projects i've done:</p>
-			<div id="titleband"></div>
+			<p class="titleinverse">projects i've done:</p>
+			<div class="titleband"></div>
 		<div id="contentContainer">
 			<div id="wrapper">
 				<!-- First Project -->
 				<div id="itemOne" class="content">
-					<div id="cards-bar">
-						<div class="col-md-3" id="card"><img src="static/images/project-euler.png" class="img-responsive" width="400px"></div>
-						<div class="col-md-8" id="projdescrip">
-							<p id="projtitle">Project Euler Solutions</p>
-							<div id="projband"></div>
+					<!-- <div class="col-md-3 card2"><img src="static/images/project-euler.png" width="200px"></div> -->
+					<div class="cards-bar">
+						<div class="col-md-3 card"><img src="static/images/project-euler.png" class="img-responsive" width="400px"></div>
+						<div class="col-md-8 projdescrip">
+							<p class="projtitle">Project Euler Solutions</p>
+							<div class="projband"></div>
 							<em>Type:</em> Personal Project<br>
 							<em>Date:</em> Aug 2017 - present<br>
 							<em>Languages &amp; Tools:</em> Bash, C++, Haskell, Python, Scala
-							<hr>					
+							<hr>
 							<p><strong>Code implementations</strong> of Project Euler computational problems. I chose to do this project to improve my <strong>problem-solving and coding skills</strong> as well as to become more proficient with certain languages.<br>
 							</p><br>
 						</div>
 					</div>
-						<center><a href="https://github.com/anthonyc1/ProjectEulerSolutions" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a></center>
+						<center><a href="https://github.com/anthonyc1/ProjectEulerSolutions" target="_blank"><button type="button" class="btn btn-default" ><i class="fa fa-github" aria-hidden="true"><span class="link_text">View on GitHub</span></i></button></a></center>
 					<p></p>
 				</div>
 
 				<!-- Next Project -->
 				<div id="itemTwo" class="content">
-					<div id="cards-bar">
-						<div class="col-md-3" id="card"><img src="static/images/uno_game.jpg" class="img-responsive" width="400px"></div>
-						<div class="col-md-8" id="projdescrip">
-							<p id="projtitle">UNO Game</p>
-							<div id="projband"></div>
+					<!-- <div class="col-md-3 card2"><img src="static/images/uno_game.jpg" width="200px"></div> -->
+					<div class="cards-bar">
+						<div class="col-md-3 card"><img src="static/images/uno_game.jpg" class="img-responsive" width="400px"></div>
+						<div class="col-md-8 projdescrip">
+							<p class="projtitle">UNO Game</p>
+							<div class="projband"></div>
 							<em>Type:</em> Course Project<br>
 							<em>Date:</em> May 2017<br>
 							<em>Languages &amp; Tools:</em> Java
-							<hr>					
+							<hr>
 							<p>A text-based version of the UNO card game, created using Java OOP and recursion.<br>
 							</p><br>
 						</div>
 					</div>
-						<center><a href="https://github.com/anthonyc1/StonyBrookCS/tree/master/CSE%20114" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a></center>
+						<center><a href="https://github.com/anthonyc1/StonyBrookCS/tree/master/CSE%20114" target="_blank"><button type="button" class="btn btn-default" ><i class="fa fa-github" aria-hidden="true"><span class="link_text">View on GitHub</span></i></button></a></center>
 					<p></p>
 				</div>
 
 				<!-- Next Project -->
 				<div id="itemThree" class="content">
-					<div id="cards-bar">
-						<div class="col-md-3" id="card"><img src="static/images/musicmentorcover.png" class="img-responsive" width="400px"></div>
-						<div class="col-md-8" id="projdescrip">
-							<p id="projtitle">Music Mentor</p>
-							<div id="projband"></div>
+					<!-- <div class="col-md-3 card2"><img src="static/images/musicmentorcover.png" class="img-responsive" width="200px"></div> -->
+					<div class="cards-bar">
+						<div class="col-md-3 card"><img src="static/images/musicmentorcover.png" class="img-responsive" width="400px"></div>
+						<div class="col-md-8 projdescrip">
+							<p class="projtitle">Music Mentor</p>
+							<div class="projband"></div>
 							<em>Type:</em> Personal Project<br>
 							<em>Date:</em> Jan - Feb 2017<br>
 							<em>Languages &amp; Tools:</em> JavaScript, Node.js, Python, Flask, HTML, CSS
@@ -214,18 +211,20 @@
 							<p>This online tool helps users <strong>learn music theory</strong> by providing a <strong>web application</strong> that performs music theory calculations such as scale conversion, chord creation, and interval creation. Furthermore, there's a companion Facebook <strong>Messenger bot</strong> to augment the learning experience.<br>
 						</div>
 					</div>
-						<div id="buttons-bar">
-							<a href="https://github.com/anthonyc1/music-mentor-bot" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a><a href="https://musicmentorapp.herokuapp.com" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-laptop" aria-hidden="true"> Visit Web App</i></button></a></div>
+						<div class="buttons-bar">
+							<a href="https://github.com/anthonyc1/music-mentor-bot" target="_blank"><button type="button" class="btn btn-default" ><i class="fa fa-github" aria-hidden="true"><span class="link_text">View on GitHub</span></i></button></a>
+							<a href="https://musicmentorapp.herokuapp.com" target="_blank"><button type="button" class="btn btn-default" ><i class="fa fa-laptop" aria-hidden="true"><span class="link_text">Visit Web App</span></i></button></a></div>
 						<p></p>
 				</div>
 
 				<!-- Next Project -->
 				<div id="itemFour" class="content">
-					<div id="cards-bar">
-					<div class="col-md-3" id="card"><img src="static/images/collegecare.png" class="img-responsive" width="400px"></div>
-						<div class="col-md-8" id="projdescrip">
-							<p id="projtitle">College Care</p>
-							<div id="projband"></div>
+					<!-- <div class="col-md-3 card2"><img src="static/images/collegecare.png" class="img-responsive" width="200px"></div> -->
+					<div class="cards-bar">
+					<div class="col-md-3 card"><img src="static/images/collegecare.png" class="img-responsive" width="400px"></div>
+						<div class="col-md-8 projdescrip">
+							<p class="projtitle">College Care</p>
+							<div class="projband"></div>
 							<em>Type:</em> Group Project Submitted to NY State Making College Programming Competition; Teammates: Shaan Sheikh<br>
 							<em>Date:</em> Feb 2017<br>
 							<em>Languages &amp; Tools:</em> HTML, CSS, Bootstrap, Python, Flask, SQLite3
@@ -234,18 +233,20 @@
 							</p>
 						</div>
 					</div>
-					<div id="buttons-bar">
-						<a href="https://github.com/anthonyc1/excelsior-hack" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a><a href="https://collegecare.herokuapp.com" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-laptop" aria-hidden="true"> Visit Web App</i></button></a></div>
+					<div class="buttons-bar">
+						<a href="https://github.com/anthonyc1/excelsior-hack" target="_blank"><button type="button" class="btn btn-default" ><i class="fa fa-github" aria-hidden="true"><span class="link_text">View on GitHub</span></i></button></a>
+						<a href="https://collegecare.herokuapp.com" target="_blank"><button type="button" class="btn btn-default" ><i class="fa fa-laptop" aria-hidden="true"><span class="link_text">Visit Web App</span></i></button></a></div>
 					<p></p>
 				</div>
 
 				<!-- Next Project -->
 				<div id="itemFive" class="content">
-					<div id="cards-bar">
-						<div class="col-md-3" id="card"><img src="static/images/zerowaste.png" class="img-responsive" width="400px"></div>
-						<div class="col-md-8" id="projdescrip">
-							<p id="projtitle">Zero Waste</p>
-							<div id="projband"></div>
+					<!-- <div class="col-md-3 card2"><img src="static/images/zerowaste.png" class="img-responsive" width="200px"></div> -->
+					<div class="cards-bar">
+						<div class="col-md-3 card"><img src="static/images/zerowaste.png" class="img-responsive" width="400px"></div>
+						<div class="col-md-8 projdescrip">
+							<p class="projtitle">Zero Waste</p>
+							<div class="projband"></div>
 							<em>Type:</em> Group hackathon project completed to Social Hack Day; Teammates: Jon Reyes, Kitty Liu<br>
 							<em>Date:</em> Feb 2017<br>
 							<em>Languages &amp; Tools:</em> HTML, CSS, JavaScript, d3.js
@@ -254,84 +255,85 @@
 							</p>
 						</div>
 					</div>
-						<center><a href="https://github.com/anthonyc1/Social-Hacks-17" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a></center>
+						<center><a href="https://github.com/anthonyc1/Social-Hacks-17" target="_blank"><button type="button" class="btn btn-default" ><i class="fa fa-github" aria-hidden="true"><span class="link_text">View on GitHub</span></i></button></a></center>
 					<p></p>
 				</div>
 
 				<!-- Next Project -->
 				<div id="itemSix" class="content">
-					<div id="cards-bar">
-						<div class="col-md-3" id="card"><img src="static/images/portfolio.png" class="img-responsive" width="400px"></div>
-						<div class="col-md-8" id="projdescrip">
-							<p id="projtitle">Portfolio</p>
-							<div id="projband"></div>
+					<!-- <div class="col-md-3 card2"><img src="static/images/portfolio.png" class="img-responsive" width="200px"></div> -->
+					<div class="cards-bar">
+						<div class="col-md-3 card"><img src="static/images/portfolio.png" class="img-responsive" width="400px"></div>
+						<div class="col-md-8 projdescrip">
+							<p class="projtitle">Portfolio</p>
+							<div class="projband"></div>
 							<em>Type:</em> Portfolio of miscellaneous work<br>
 							<em>Date:</em> Sep 2016 - present<br>
 							<em>Languages &amp; Tools:</em> Python, Java
-							<hr>					
+							<hr>
 							<p>A <strong>portfolio of miscellaneous work</strong> I've done to learn something new or to implement something I find meaningful. It contains personal projects, experiments, and everything else.<br>
 							</p><br>
 						</div>
 					</div>
-					<center><a href="https://github.com/anthonyc1/portfolio" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a></center>
+					<center><a href="https://github.com/anthonyc1/portfolio" target="_blank"><button type="button" class="btn btn-default" ><i class="fa fa-github" aria-hidden="true"><span class="link_text">View on GitHub</span></i></button></a></center>
 					<p></p>
 				</div>
 
 				<!-- Next Project -->
 				<div id="itemSeven" class="content">
-					<div id="cards-bar">
-						<div class="col-md-3" id="card"><img src="static/images/littlebits.png" class="img-responsive" width="400px"></div>
-						<div class="col-md-8" id="projdescrip">
-							<p id="projtitle">Exercise Counter</p>
-							<div id="projband"></div>
+					<!-- <div class="col-md-3 card2"><img src="static/images/littlebits.png" class="img-responsive" width="200px"></div> -->
+					<div class="cards-bar">
+						<div class="col-md-3 card"><img src="static/images/littlebits.png" class="img-responsive" width="400px"></div>
+						<div class="col-md-8 projdescrip">
+							<p class="projtitle">Exercise Counter</p>
+							<div class="projband"></div>
 							<em>Type:</em> Group hackathon project submitted to HACKfEAT; Teammates: Zhengyang Liu<br>
 							<em>Date:</em> Oct 2016<br>
 							<em>Languages &amp; Tools:</em> Arduino, LittleBits.
-							<hr>						
+							<hr>
 							<p>In this LittleBits and Augmented Reality themed hackathon, my team came up with an exercise counter since we both like keeping fit. The device records the number of repetitions for various exercises (such as pushups and squats) using an <strong>Arduino, a bend sensor, and several output LittleBits.</strong>
 							</p><br>
 						</div>
 					</div>
-						<center><a href="https://github.com/anthonyc1/ExerciseCounter" target="_blank"><button type="button" class="btn btn-default" id="link_text"><i class="fa fa-github" aria-hidden="true"> View on GitHub</i></button></a></center>
+						<center><a href="https://github.com/anthonyc1/ExerciseCounter" target="_blank"><button type="button" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"><span class="link_text">View on GitHub</span></i></button></a></center>
 				</div>
 			</div>
 		</div>
 		<div class="navigation">
 			<div id="navPrev">
-				<button>&lt;&lt; Prev</button>
+				<button>&lt;&lt;</button>
+			</div>
+			<div id="navLinks">
+					<ul>
+							<li class="itemLinks" data-pos="0px"></li>
+							<li class="itemLinks" data-pos="-350px"></li>
+							<li class="itemLinks" data-pos="-740px"></li>
+							<li class="itemLinks" data-pos="-1100px"></li>
+							<li class="itemLinks" data-pos="-1480px"></li>
+							<li class="itemLinks" data-pos="-1860px"></li>
+							<li class="itemLinks" data-pos="-2230px"></li>
+					</ul>
 			</div>
 			<div id="navNext">
-				<button>Next &gt;&gt;</button>
+				<button>&gt;&gt;</button>
 			</div>
-		</div>
-		<div id="navLinks">
-		    <ul>
-		        <li class="itemLinks" data-pos="0px"></li>
-		        <li class="itemLinks" data-pos="-350px"></li>
-		        <li class="itemLinks" data-pos="-740px"></li>
-		        <li class="itemLinks" data-pos="-1100px"></li>
-		        <li class="itemLinks" data-pos="-1480px"></li>
-		        <li class="itemLinks" data-pos="-1860px"></li>
-		        <li class="itemLinks" data-pos="-2230px"></li>
-		    </ul>
 		</div>
 
 	</div>
 
 	<!-- Stay in Touch section -->
 	<div id="stayintouch">
-		<p id="titleinverse">how you can reach me:</p>
-			<div id="titleband"></div>
+		<p class="titleinverse">how you can reach me:</p>
 		<div id="socialWrapper">
-				<div id="socialicon">
-					<a href="https://github.com/anthonyc1" target="_blank"><i class="fa fa-github fa-5x" style="color:white"></i></a><br><p id="inversefooter">Github</p></div>
-				<div id="socialicon">
-					<a href="https://www.linkedin.com/in/anthonychan0123" target="_blank"><i class="fa fa-linkedin fa-5x" style="color:white"></i></a><br><p id="inversefooter">LinkedIn</p></div>
-				<div id="socialicon">
-					<a href='mai&#108;to&#58;a&#110;t&#104;%6Fny&#99;&#104;an&#48;%31&#50;3&#64;gm&#97;il&#46;c%&#54;Fm'&#97;nthon&#121;&#99;han012&#51;&#64;gma&#105;&#108;&#46;c&#111;&#109;><i class="fa fa-envelope fa-5x" aria-hidden="true" style="color:white" target="_blank"></i></a><br><p id="inversefooter">Email</p></div>
+				<div>
+					<a href="https://github.com/anthonyc1" target="_blank"><i class="fa fa-github fa-5x" style="color:white"></i></a><br><p class="inversefooter">Github</p></div>
+				<div>
+					<a href="https://www.linkedin.com/in/anthonychan0123" target="_blank"><i class="fa fa-linkedin fa-5x" style="color:white"></i></a><br><p class="inversefooter">LinkedIn</p></div>
+				<div>
+					<a href='mai&#108;to&#58;a&#110;t&#104;%6Fny&#99;&#104;an&#48;%31&#50;3&#64;gm&#97;il&#46;c%&#54;Fm'&#97;nthon&#121;&#99;han012&#51;&#64;gma&#105;&#108;&#46;c&#111;&#109;><i class="fa fa-envelope fa-5x" aria-hidden="true" style="color:white" target="_blank"></i></a><br><p class="inversefooter">Email</p></div>
 			</div>
 		<div id="footer">
-			<p id="inverse">Copyright &copy 2017 Anthony Chan</p>
+			<p class="inverse">Copyright &copy 2017 Anthony Chan</p>
 		</div>
 	</div>
 	<script src= "index.js" type="text/javascript"></script>

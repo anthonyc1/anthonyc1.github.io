@@ -228,7 +228,7 @@ tab1 {
     list-style: none;
     cursor: pointer;
     background-color: #CCCCCC;
-    padding: 7px;
+    padding: 5px;
     border-radius: 50%;
 }
 #navLinks ul li:hover {
@@ -412,6 +412,9 @@ tab1 {
 		#image2 {
 			display: block;
 			padding-bottom: 20px;
+		}
+		#navLinks ul li {
+			padding: 4px;
 		}
 }
 

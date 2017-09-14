@@ -276,7 +276,17 @@ tab1 {
     background: lightgreen;
     color: white;
 }
-
+#see_more{
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: 'Lato',open sans,sans-serif,georgia;
+}
+#company_link:hover{
+	background-color: lightgreen;
+}
+#link:hover {
+	background-color: orange;
+}
 .projtitle {
     font-size: 30px;
     font-family: 'Lato',open sans,sans-serif,georgia;
@@ -513,6 +523,9 @@ tab1 {
     .cards-bar {
         padding-left: 10px;
     }
+		#see_more{
+			font-size: 14px;
+		}
 }
 @media screen and (max-width: 400px){
     #contentContainer{

@@ -1,0 +1,24 @@
+.navbar-default{
+	background-color: #f8f8f8;
+}
+.navbar-fixed-top {
+	top:0;
+	height: 60px;
+	border-width: 0 0 1px;
+}
+.navbar-toggle {
+    position: relative;
+    color: white;
+    float: right;
+    margin-right: 15px;
+    margin-top: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-color: white;
+}
+.navbar-nav li {
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}

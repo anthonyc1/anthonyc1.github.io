@@ -1,0 +1,253 @@
+html, body {
+    overflow-x:hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    min-width: 100%;
+}
+tab {
+    padding-left: 1em;
+}
+tab1 {
+    padding-left: 2em;
+}
+.header {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Lato',sans-serif,georgia;
+}
+.row p span {
+    color: lightgreen;
+}
+#center {
+    display: flex;
+    justify-content: center;
+}
+.inverse {
+    color:white;
+    text-shadow: 1.2px 1.2px black;
+}
+#title {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 35px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+.titleinverse {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 35px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+.titledescrip {
+    display: block;
+    font-size: 18px;
+    font-family: open sans,'Lato',sans-serif,georgia;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.headerband {
+    height: 3px;
+    width: 50%;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#skills-bar{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content:space-between;
+}
+#skills-bar2{
+    display: none;
+}
+.titleband{
+    height: 2px;
+    width: 15%;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+		margin-top: -10px;
+		margin-bottom: 10px;
+
+}
+#aboutme {
+    margin-right: auto;
+    margin-left: auto;
+}
+#image{
+    padding-left: 250px;
+}
+#image2{
+	display: none;
+}
+#aboutme2{
+    padding-right: 260px;
+    padding-left: 260px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#aboutme-bar{
+    display: flex;
+    padding-bottom: 40px;
+    justify-content:space-between;
+}
+#backdrop {
+    background-image: url("../images/coding.jpeg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.row {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../images/coverpic.jpeg");
+    background-size: cover;
+}
+
+.row2 {
+    padding-top: 55px;
+    padding-bottom: 140px;
+    background:rgba(0,20,100,0.4);
+}
+.row3 {
+    padding-top: 55px;
+    padding-bottom: 50px;
+    background: rgba(233,233,233,1);
+
+}
+.row4 {
+    padding-top: 55px;
+    padding-bottom: 40px;
+    /*background: rgba(20,200,150,0.7);*/
+}
+.intro {
+    font-size: 80px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+    display: block;
+    text-align: center;
+}
+.introdescrip {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: open sans,'Lato',sans-serif,georgia;
+    text-align: center;
+}
+#shadow {
+    color: white;
+    text-shadow: 1.2px 1.2px black;
+}
+.biodescrip {
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif,georgia;
+    text-align: left;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+.descrip {
+    display: block;
+    font-size: 16px;
+    font-family: 'Lato',sans-serif,georgia;
+    text-align: left;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+
+#see_more{
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: 'Lato',open sans,sans-serif,georgia;
+}
+#company_link:hover{
+	background-color: lightgreen;
+}
+#link:hover {
+	background-color: orange;
+}
+.projtitle {
+    font-size: 30px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+.projband{
+    height: 2px;
+    width: 15%;
+    background-color: black;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.projdescrip {
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif,georgia;
+}
+.allprojects{
+    padding-top: 50px;
+}
+.btn-default {
+    border-width: 1px;
+    color: black;
+}
+.btn-default:hover {
+    color: white;
+    background-color: lightgreen;
+}
+
+.link_text{
+    font-family: sans-serif;
+    padding-left: 15px;
+}
+.card2{
+	display: none;
+	background: red;
+}
+.cards-bar {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+#socialWrapper {
+    display:flex;
+    justify-content:space-between;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+#footer {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 180px;
+}
+.inversefooter {
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 1.2px 1.2px black;
+}
+#stayintouch {
+    padding-top: 150px;
+    padding-bottom: 10px;
+    margin-bottom: -20px;
+    background:rgba(10,50,100,0.2);
+}
+.buttons-bar{
+    display: flex;
+    max-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+    justify-content:space-between;
+}

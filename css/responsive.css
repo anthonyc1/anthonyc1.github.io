@@ -2,16 +2,13 @@
     #aboutme2 {
         padding-right: 170px;
         padding-left: 170px;
-        }
+    }
     #image{
         padding-left: 150px;
     }
 }
+
 @media screen and (max-width: 990px){
-    .row{
-        background-image: none;
-        : white;
-    }
     #image{
         padding-left: 0px;
     }
@@ -27,9 +24,9 @@
     .card {
         display: none;
     }
-		.card2 {
-			display: block;
-		}
+	.card2 {
+		display: block;
+	}
      .cards-bar{
         padding-top: 30px;
         padding-right: 15px;
@@ -53,13 +50,13 @@
     #image {
         display: none;
     }
-		#image2 {
-			display: block;
-			padding-bottom: 20px;
-		}
-		#navLinks ul li {
-			padding: 4px;
-		}
+	#image2 {
+		display: block;
+		padding-bottom: 20px;
+	}
+	#navLinks ul li {
+		padding: 4px;
+	}
 }
 
 @media screen and (max-width: 766px) {
@@ -94,7 +91,6 @@
         padding-bottom: 120px;
         padding-left: 30px;
         padding-right: 30px;
-        background-image: url("../images/coverpic2.jpeg");;
     }
     #skills-bar{
         display: none;
@@ -135,11 +131,8 @@
 
 @media screen and (max-width: 520px){
      #aboutme, #aboutme2 {
-        padding-right: 40px;
-        padding-left: 40px;
-    }
-    .row{
-        background-image: none;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .intro {
         font-size: 50px;
@@ -151,27 +144,35 @@
         font-size: 22px;
     }
     .introdescrip, .projdescrip, .descrip {
-        font-size: 15px;
+        font-size: 14px;
+    }
+    .biodescrip {
+        font-size: 14px;
     }
     .row{
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    #myPic {
+        display: none;
+    }
     #socialWrapper {
         max-width: 65%;
     }
     .cards-bar {
         padding-left: 10px;
     }
-		#see_more{
-			font-size: 14px;
-		}
+	#see_more{
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 400px){
     #contentContainer{
-        height: 425px;
+        height: 400px;
+    }
+    .content{
+        height: 380px;
     }
     .headerband{
         width: 90%;
@@ -179,5 +180,16 @@
     #socialWrapper {
         max-width: 85%
     }
+}
 
+@media screen and (max-width: 375px){
+    .headerband{
+        width: 90%;
+    }
+    #socialWrapper {
+        max-width: 85%
+    }
+    #projectBar {
+        display: none;
+    }
 }

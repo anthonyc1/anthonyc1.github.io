@@ -6,13 +6,13 @@
 .content{
     float: left;
     width: 100%;
-    height: 370px;
+    height: 375px;
     background-color: rgba(255,255,255,0.8);
 }
 
 #contentContainer{
     width: 100%;
-    height: 400px;
+    height: 360px;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
     overflow: hidden;
@@ -79,6 +79,7 @@
     border: 2px solid gray;
 }
 #navPrev button:hover, #navNext button:hover {
-    background: lightgreen;
+    background-color: tan;
     color: white;
+    border: 4px solid lightblue;
 }

@@ -8,6 +8,16 @@
     }
 }
 
+@media screen and (max-width: 1085px){
+    #contentContainer{
+        height: 380px;
+    }
+    .content {
+        height: 340px;
+        background-color: blue;
+    }
+}
+
 @media screen and (max-width: 990px){
     #image{
         padding-left: 0px;

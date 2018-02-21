@@ -6,4 +6,4 @@ Made with <3
 
 ----
 
-Copyright © 2017 Anthony Chan. All rights reserved.
+Copyright © Anthony Chan. All rights reserved.

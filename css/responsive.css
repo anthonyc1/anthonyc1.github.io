@@ -25,9 +25,6 @@
     tab2 {
         padding-left: 4em;
     }
-    #socialWrapper {
-        max-width: 50%
-    }
     .buttons-bar{
         max-width: 65%;
     }
@@ -57,6 +54,10 @@
     }
 }
 @media screen and (max-width: 850px){
+    #aboutme {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
     #image {
         display: none;
     }
@@ -64,6 +65,9 @@
 		display: block;
 		padding-bottom: 20px;
 	}
+    .biodescrip{
+        font-size: 14px;
+    }
 	#navLinks ul li {
 		padding: 4px;
 	}
@@ -76,16 +80,12 @@
 }
 
 @media screen and (max-width: 750px){
-     #aboutme {
-        padding-right: 100px;
-        padding-left: 100px;
-    }
     #aboutme2{
         padding-right: 70px;
         padding-left: 70px;
     }
-    .descrip,.biodescrip  {
-        font-size: 16px;
+    .descrip {
+        font-size: 14px;
     }
      .intro {
         font-size: 60px;
@@ -113,9 +113,6 @@
     }
     #image {
         display: none;
-    }
-    #socialWrapper {
-        max-width: 55%
     }
     #endquote {
         font-size: 20px;
@@ -166,15 +163,15 @@
     #myPic {
         display: none;
     }
-    #socialWrapper {
-        max-width: 65%;
-    }
     .cards-bar {
         padding-left: 10px;
     }
 	#see_more{
 		font-size: 14px;
 	}
+    #socialWrapper {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -188,16 +185,13 @@
         width: 90%;
     }
     #socialWrapper {
-        max-width: 85%
+        width: 240px;
     }
 }
 
 @media screen and (max-width: 375px){
     .headerband{
         width: 90%;
-    }
-    #socialWrapper {
-        max-width: 85%
     }
     #projectBar {
         display: none;

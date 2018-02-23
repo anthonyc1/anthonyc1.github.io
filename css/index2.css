@@ -1,0 +1,242 @@
+html, body {
+    overflow-x:hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    min-width: 100%;
+}
+
+tab {
+    padding-left: 1em;
+}
+tab1 {
+    padding-left: 2em;
+}
+.header {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Lato',sans-serif,georgia;
+}
+.navbar .container-fluid .navbar-collapse ul li {
+    font-family: monospace;
+    font-size: 18px;
+}
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+.inverse {
+    color:white;
+    text-shadow: 1.2px 1.2px black;
+}
+.title {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    font-family: 'Montserrat', 'Lato',open sans,sans-serif,georgia;
+}
+.titleinverse {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    font-family: 'Roboto Slab', open sans,sans-serif,georgia;
+}
+
+#headshot {
+    border-radius: 30px 30px 30px 30px;
+}
+
+#headshotContainer {
+    text-align: center;
+}
+
+.intro {
+    font-size: 50px;
+    font-family: monospace,'Lato',open sans,sans-serif,georgia;
+    display: block;
+    text-align: center;
+}
+
+.introdescrip {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: open sans,'Lato',sans-serif,georgia;
+    text-align: center;
+}
+
+.headerband {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+#aboutme {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#myPic {
+    border-radius: 15px 30px 30px 5px;
+}
+
+#aboutme2{
+    padding-right: 260px;
+    padding-left: 260px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#aboutme-bar{
+    display: flex;
+    padding-bottom: 40px;
+    justify-content:space-between;
+}
+
+.biodescrip {
+    display: block;
+    font-size: 16px;
+    font-family: open sans,georgia;
+    text-align: left;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+.descrip {
+    display: block;
+    font-size: 16px;
+    font-family: 'Lato',sans-serif,georgia;
+    text-align: left;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+
+#image{
+    padding-left: 100px;
+}
+#image2{
+	display: none;
+}
+
+#skills-bar{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content:space-between;
+}
+#skills-bar2{
+    display: none;
+}
+
+#company_link:hover{
+	background-color: lightgreen;
+}
+#link:hover {
+	background-color: tan;
+}
+.projtitle {
+    font-size: 30px;
+    font-family: 'Lato',open sans,sans-serif,georgia;
+}
+.projband{
+    height: 2px;
+    width: 15%;
+    background-color: black;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.projdescrip {
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif,georgia;
+}
+.btn-default {
+    border-width: 1px;
+    color: black;
+}
+.btn-default:hover {
+    color: white;
+    background-color: tan;
+    text-shadow: 0 0 10px lightblue;
+}
+
+.link_text{
+    font-family: sans-serif;
+    padding-left: 15px;
+}
+.card2{
+	display: none;
+	background: red;
+}
+.cards-bar {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+#see_more{
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: 'Lato',open sans,sans-serif,georgia;
+}
+
+.buttons-bar{
+    display: flex;
+    max-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+    justify-content:space-between;
+}
+
+#socialWrapper {
+    display: flex;
+    width: 400px;
+    justify-content:space-between;
+}
+
+#footerHeader {
+    padding-bottom: 70px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 16px;
+    font-family: monospace;
+    padding-top: 150px;
+}
+.inversefooter {
+    color:white;
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 1.2px 1.2px black;
+}
+#stayintouch {
+	padding-right: 260px;
+    padding-left: 260px;
+}
+
+#endText{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.fa-5x {
+    color: white;
+}
+.fa-5x:hover {
+    color: tan;
+    text-shadow: 0 0 10px lightblue;    
+}

@@ -1,0 +1,31 @@
+section { 
+  height: 100vh; 
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section:first-of-type, section.pop { 
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0,0,0,0.4); 
+}
+section:nth-of-type(even) { 
+  background: #fff;
+}
+section:nth-of-type(1) { 
+  background-image: url("../images/milkyway3.jpg");
+  background-position: center;
+}
+section:nth-of-type(3) { 
+  background-image: url("../images/coding.jpeg");
+}
+section:nth-of-type(5) { 
+  background-image: url("../images/desk-background.jpg"); 
+  margin-bottom: -20px;
+}

@@ -32,14 +32,13 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<!--Other stylesheets-->
-	<link rel="stylesheet" href="css/index.css">
-	<!-- <link rel="stylesheet" href="css/scroll.css"> -->
+	<link rel="stylesheet" href="css/index2.css">
+	<link rel="stylesheet" href="css/scroll.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/project_slider.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Slab|Open+Sans|Montserrat|Droid+Serif" rel="stylesheet">
 </head>
-
 <body>
 	<!--Nav bar-->
 	<nav class="navbar navbar-inverse navbar-fixed-top navbar-offset">
@@ -62,11 +61,8 @@
 			</div>
 		</div>
 	</nav>
-	<!--Container for main site-->
-	<div id="backdrop"></div>
-
-	<section>
-		<div id="home">
+	<section class="textoverpic">
+	  <div id="home">
 			<div class="row">
 				<div class="headerband"></div>
 				<div id="headshotContainer"><img src="images/me1.jpg" id="headshot" width="180px"></div>
@@ -78,12 +74,12 @@
 	</section>
 
 	<section>
-		<div class="row2" id="aboutme">
+	  <div class="row2" id="aboutme">
 			<div class="col-md-5" id="image2"><center><img src="images/me2.jpg" id="myPic" width="180px"></center></div>
-			<p class="titleinverse">Who Am I</p>
+			<p class="title">Who Am I</p>
 			<div id="aboutme-bar">
 				<div class="col-md-5" id="image"><center><img src="images/me2.jpg" id="myPic" width="180px"></center></div>
-				<div><p class="biodescrip col-md-8 inverse"><tab1></tab1>Hi. I'm <strong>Anthony Chan</strong>, a software developer based in New York City and a third-year undergraduate computer science major. My technical background is primarily in software development and web development. I've worked as a <strong>Software QA Engineer Intern</strong> for <a href="http://www.acadiasoft.com/" id="company_link" style="color: #2cccbe" target="_blank">AcadiaSoft Inc.</a>
+				<div><p class="biodescrip col-md-8"><tab1></tab1>Hi. I'm <strong>Anthony Chan</strong>, a software developer based in New York City and a third-year undergraduate computer science major. My technical background is primarily in software development and web development. I've worked as a <strong>Software QA Engineer Intern</strong> for <a href="http://www.acadiasoft.com/" id="company_link" style="color: #2cccbe" target="_blank">AcadiaSoft Inc.</a>
 					for the 2017 summer.
 					<br><tab1></tab1>Outside of work, I'm consistently learning whether it's through reading, attending events, or working on projects that I find meaningful. Most recently, I've participated in Hack@CEWIT hackathon where my project submission won two awards.
 					<br><tab1></tab1>I'm a strong believer in working hard and in learning by doing.</p></div>
@@ -103,10 +99,10 @@
 			-->
 		</div>
 	</div>
-</section>
+	</section>
 
-<section>
-	<div class="row3" id="skills">
+	<section>
+	  <div class="row3" id="skills">
 		<div id="aboutme2">
 			<p class="titleinverse">Skillset</p>
 
@@ -167,11 +163,11 @@
 			</div>
 		</div>
 	</div>
-</section>
+	</section>
 
-<section>
-	<div class="row4" id="projects">
-		<p class="titleinverse">Projects I've Done</p>
+	<section>
+	  	<div class="row4" id="projects">
+		<p class="title">Projects I've Done</p>
 
 		<div id="contentContainer">
 			<div id="wrapper">
@@ -333,26 +329,25 @@
 						<ul>
 							<li class="itemLinks" data-pos="0px"></li>
 							<li class="itemLinks" data-pos="-350px"></li>
-							<li class="itemLinks" data-pos="-740px"></li>
-							<li class="itemLinks" data-pos="-1100px"></li>
-							<li class="itemLinks" data-pos="-1480px"></li>
+							<li class="itemLinks" data-pos="-760px"></li>
+							<li class="itemLinks" data-pos="-1120px"></li>
+							<li class="itemLinks" data-pos="-1500px"></li>
 							<li class="itemLinks" data-pos="-1860px"></li>
-							<li class="itemLinks" data-pos="-2230px"></li>
+							<li class="itemLinks" data-pos="-2250px"></li>
 						</ul>
 					</div>
 					<div id="navNext">
 						<button>&#8594</button>
 					</div>
 				</div>
-				<center class="inverse" id="see_more">
+				<center id="see_more">
 					To see more projects, check out my <a href="https://github.com/anthonyc1" target="_blank"><span id="link" style="color:lightgreen">GitHub</span></a>!
-				</center>		
-			</section>
+				</center>
+	</section>
 
-			<!-- Stay in Touch section -->
-			<section>
-				<div id="stayintouch">
-					<p class="titleinverse">Reach Out To Me</p>
+	<section>
+	  <div id="stayintouch">
+					<p class="titleinverse" id="footerHeader">Reach Out To Me</p>
 					<!-- <p class="inverse" id="endText">I'll get back to you as soon as I can. :)</p> -->
 					<div id="socialWrapper">
 						<div>
@@ -369,9 +364,9 @@
 						<p class="inverse">Copyright &copy Anthony Chan</p>
 					</div>
 				</div>
-			</section>
+	</section>
 
-			<!--JS Scripts-->
+	<!--JS Scripts-->
 			<script src= "js/index.js" type="text/javascript"></script>
 
 			<!--Bootstrap & FontAwesome Scripts-->
@@ -390,5 +385,6 @@
 				ga('send', 'pageview');
 
 			</script>
-		</body>
-		</html>
+
+</body>
+</html>

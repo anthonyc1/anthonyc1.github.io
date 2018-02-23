@@ -15,7 +15,7 @@ tab1 {
     font-size: 24px;
     text-decoration: underline;
     font-weight: bold;
-    font-family: 'Lato',sans-serif,georgia;
+    font-family: 'Roboto Slab','Lato',sans-serif,georgia;
 }
 .navbar .container-fluid .navbar-collapse ul li {
     font-family: monospace;
@@ -28,7 +28,7 @@ tab1 {
     color:white;
     text-shadow: 1.2px 1.2px black;
 }
-#title {
+.title {
     text-align: center;
     color: black;
     text-shadow: 2px 2px white;
@@ -44,7 +44,7 @@ tab1 {
     font-size: 28px;
     letter-spacing: 1.5px;
     font-weight: normal;
-    font-family: 'Roboto Slab', open sans,sans-serif,georgia;
+    font-family: 'Montserrat', open sans,sans-serif,georgia;
 }
 .titledescrip {
     display: block;
@@ -118,22 +118,22 @@ tab1 {
 .row2 {
     padding-top: 60px;
     padding-bottom: 140px;
-    background:rgba(0,7,12,0.4);
+    background: white;
 }
 .row3 {
     padding-top: 60px;
     padding-bottom: 50px;
-    background: rgba(45,178,166,0.6);
+    background: rgba(0,7,12,0.4);
 
 }
 .row4 {
     padding-top: 60px;
     padding-bottom: 80px;
-    background: rgba(74,82,88,0.8);
+    background: white;
 }
 
 #contentContainer {
-    background-color: grey;
+    background-color: white;
     padding-bottom: 200px;
 }
 

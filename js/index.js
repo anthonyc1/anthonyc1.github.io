@@ -68,7 +68,7 @@ function startTimer() {
 startTimer();
  
 function resetTimer() {
-    window.clearInterval(timeoutID);
+    window.clearInterval(timeout);
     startTimer();
 }
  

@@ -29,3 +29,28 @@ section:nth-of-type(5) {
   background-image: url("../images/desk-background.jpg"); 
   margin-bottom: -20px;
 }
+
+/*body,
+html{
+  
+  height: 100%;
+}
+.fixed-bg {
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.fixed-bg.bg-1 {
+  background-image: url("../images/milkyway3.jpg");
+}
+.fixed-bg.bg-2 {
+  background-image: url("../images/coding.jpeg");
+}
+.fixed-bg.bg-3 {
+  background-image: url("../images/desk-background.jpg");
+}
+.scrolling-bg {
+  min-height: 100%;
+}*/

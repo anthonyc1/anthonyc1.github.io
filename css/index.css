@@ -78,6 +78,7 @@ tab1 {
 }
 
 #myPic {
+    padding-top: 20px;
     border-radius: 15px 30px 30px 5px;
 }
 
@@ -190,8 +191,15 @@ tab1 {
 	font-size: 18px;
 	font-family: 'Lato',open sans,sans-serif,georgia;
 }
-#company_link:hover{
-	background-color: lightgreen;
+
+#company_link{
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-size: 21px;
+    font-style: bold;
+}
+#link {
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-size: 20px;
 }
 #link:hover {
 	background-color: tan;

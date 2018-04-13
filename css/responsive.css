@@ -167,7 +167,7 @@
         display: none;
     }
     #socialWrapper {
-        max-width: 65%;
+        max-width: 75%;
     }
     .cards-bar {
         padding-left: 10px;
@@ -188,7 +188,7 @@
         width: 90%;
     }
     #socialWrapper {
-        max-width: 85%
+        max-width: 95%
     }
 }
 
@@ -197,7 +197,7 @@
         width: 90%;
     }
     #socialWrapper {
-        max-width: 85%
+        max-width: 95%
     }
     #projectBar {
         display: none;

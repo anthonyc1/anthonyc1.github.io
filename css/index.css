@@ -194,8 +194,13 @@ tab1 {
 
 #company_link{
     font-family: 'Raleway', 'Roboto', sans-serif;
-    font-size: 21px;
+    font-size: 16px;
     font-style: bold;
+}
+#hackathon_link{
+    font-family: sans-serif;
+    color: brown;
+    font-size: 16px;
 }
 #link {
     font-family: 'Raleway', 'Roboto', sans-serif;

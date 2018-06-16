@@ -1,4 +1,4 @@
-html, body {
+html{
     overflow-x:hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -15,7 +15,7 @@ tab1 {
     font-size: 24px;
     text-decoration: underline;
     font-weight: bold;
-    font-family: 'Roboto Slab','Lato',sans-serif,georgia;
+    font-family: 'Roboto Slab','Lato',sans-serif;
 }
 .navbar .container-fluid .navbar-collapse ul li {
     font-family: monospace;
@@ -35,7 +35,7 @@ tab1 {
     font-size: 28px;
     letter-spacing: 1.5px;
     font-weight: normal;
-    font-family: 'Montserrat', 'Lato',open sans,sans-serif,georgia;
+    font-family: 'Montserrat', 'Lato',open sans,sans-serif;
 }
 .titleinverse {
     text-align: center;
@@ -44,12 +44,12 @@ tab1 {
     font-size: 28px;
     letter-spacing: 1.5px;
     font-weight: normal;
-    font-family: 'Montserrat', open sans,sans-serif,georgia;
+    font-family: 'Montserrat', open sans,sans-serif;
 }
 .titledescrip {
     display: block;
     font-size: 18px;
-    font-family: open sans,'Lato',sans-serif,georgia;
+    font-family: open sans,'Lato',sans-serif;
     text-align: center;
     padding-bottom: 35px;
 }
@@ -111,9 +111,12 @@ tab1 {
 .row {
     padding-top: 130px;
     padding-bottom: 130px;
+
     background-image: url("../images/milkyway3.jpg");
-    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .row2 {
@@ -144,7 +147,7 @@ tab1 {
 
 .intro {
     font-size: 50px;
-    font-family: monospace,'Lato',open sans,sans-serif,georgia;
+    font-family: monospace,'Lato',open sans,sans-serif;
     display: block;
     text-align: center;
 }
@@ -152,7 +155,7 @@ tab1 {
     display: block;
     font-size: 18px;
     font-weight: bold;
-    font-family: open sans,'Lato',sans-serif,georgia;
+    font-family: open sans,'Lato',sans-serif;
     text-align: center;
 }
 
@@ -171,7 +174,7 @@ tab1 {
 .biodescrip {
     display: block;
     font-size: 16px;
-    font-family: open sans,georgia;
+    font-family: open sans;
     text-align: left;
     padding-bottom: 35px;
     padding-top: 20px;
@@ -179,7 +182,7 @@ tab1 {
 .descrip {
     display: block;
     font-size: 16px;
-    font-family: 'Lato',sans-serif,georgia;
+    font-family: 'Lato',sans-serif;
     text-align: left;
     padding-bottom: 35px;
     padding-top: 20px;
@@ -189,7 +192,7 @@ tab1 {
 	margin-top: 10px;
     margin-bottom: 40px;
 	font-size: 18px;
-	font-family: 'Lato',open sans,sans-serif,georgia;
+	font-family: 'Lato',open sans,sans-serif;
 }
 
 #company_link{
@@ -211,7 +214,7 @@ tab1 {
 }
 .projtitle {
     font-size: 30px;
-    font-family: 'Lato',open sans,sans-serif,georgia;
+    font-family: 'Lato',open sans,sans-serif;
 }
 .projband{
     height: 2px;
@@ -223,7 +226,7 @@ tab1 {
 .projdescrip {
     padding-left: 30px;
     font-size: 16px;
-    font-family: 'Roboto',sans-serif,georgia;
+    font-family: 'Roboto',sans-serif;
 }
 .btn-default {
     border-width: 1px;
@@ -282,9 +285,13 @@ tab1 {
     padding-top: 150px;
     padding-bottom: 10px;
     margin-bottom: -100px;
+    
     background:url("../images/desk-background.jpg");
-    background-size: cover;
+    min-height: 500px; 
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .buttons-bar{
     display: flex;

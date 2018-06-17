@@ -5,10 +5,8 @@ html{
     height: 100%;
     min-width: 100%;
 }
-tab {
-    padding-left: 1em;
-}
-tab1 {
+
+tab{
     padding-left: 2em;
 }
 .header {
@@ -17,8 +15,11 @@ tab1 {
     font-weight: bold;
     font-family: 'Roboto Slab','Lato',sans-serif;
 }
-.navbar .container-fluid .navbar-collapse ul li {
-    font-family: monospace;
+.navbar-toggle {
+    z-index:3;
+}
+.nav-link {
+    color:white;
 }
 #center {
     display: flex;
@@ -72,7 +73,10 @@ tab1 {
     display: none;
 }
 
-#aboutme {
+#about {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    background: white;
     margin-right: auto;
     margin-left: auto;
 }
@@ -108,7 +112,7 @@ tab1 {
     position: fixed;
     z-index: -1;
 }
-.row {
+.masthead {
     padding-top: 130px;
     padding-bottom: 130px;
 
@@ -119,29 +123,25 @@ tab1 {
     background-size: cover;
 }
 
-.row2 {
-    padding-top: 60px;
-    padding-bottom: 140px;
-    background: white;
-}
-.row3 {
+#skills {
     padding-top: 60px;
     padding-bottom: 50px;
     background: rgba(0,7,12,0.4);
 
 }
-.row4 {
+#projects {
     padding-top: 60px;
     padding-bottom: 80px;
     background: white;
+    min-height: 400px;
 }
 
+.card {
+    width: 16rem;
+    border-style: none;
+}
 #contentContainer {
     background-color: white;
-    padding-bottom: 200px;
-}
-
-#wrapper {
     padding-bottom: 200px;
 }
 
@@ -174,10 +174,12 @@ tab1 {
 .biodescrip {
     display: block;
     font-size: 16px;
-    font-family: open sans;
+    font-family: open sans, sans-serif;
     text-align: left;
     padding-bottom: 35px;
     padding-top: 20px;
+    padding-right:40px;
+    padding-left:100px;
 }
 .descrip {
     display: block;
@@ -225,12 +227,14 @@ tab1 {
 }
 .projdescrip {
     padding-left: 30px;
+    padding-right: 30px;
     font-size: 16px;
     font-family: 'Roboto',sans-serif;
 }
 .btn-default {
-    border-width: 1px;
+    border: solid black 1px;
     color: black;
+    background-color: white;
 }
 .btn-default:hover {
     color: white;
@@ -242,10 +246,7 @@ tab1 {
     font-family: sans-serif;
     padding-left: 15px;
 }
-.card2{
-	display: none;
-	background: red;
-}
+
 .cards-bar {
     display: flex;
     padding-top: 60px;
@@ -276,12 +277,7 @@ tab1 {
     text-shadow: 1.2px 1.2px black;
 }
 
-#endText{
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-}
-
-#stayintouch {
+#contact {
     padding-top: 150px;
     padding-bottom: 10px;
     margin-bottom: -100px;

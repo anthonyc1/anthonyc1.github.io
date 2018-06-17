@@ -20,7 +20,10 @@
 
 @media screen and (max-width: 990px){
     #image{
-        padding-left: 0px;
+        padding-left: 80px;
+    }
+    .biodescrip {
+        padding-left: 40px;
     }
     tab2 {
         padding-left: 4em;
@@ -34,9 +37,6 @@
     .card {
         display: none;
     }
-	.card2 {
-		display: block;
-	}
      .cards-bar{
         padding-top: 30px;
         padding-right: 15px;
@@ -47,10 +47,6 @@
         padding-right: 5px;
         font-size: 16px;
      }
-     #aboutme {
-        padding-right: 140px;
-        padding-left: 140px;
-    }
     #aboutme2 {
         padding-right: 120px;
         padding-left: 120px;
@@ -63,29 +59,25 @@
 	#image2 {
 		display: block;
 		padding-bottom: 20px;
+        text-align: center;
 	}
 	#navLinks ul li {
 		padding: 4px;
 	}
 }
 
-@media screen and (max-width: 766px) {
-    .collapse {
-        background-color: black;
-    }
-}
-
 @media screen and (max-width: 750px){
-     #aboutme {
-        padding-right: 100px;
-        padding-left: 100px;
-    }
+
     #aboutme2{
         padding-right: 70px;
         padding-left: 70px;
     }
     .descrip,.biodescrip  {
         font-size: 16px;
+    }
+    .biodescrip {
+        padding-left: 0px;
+        padding-right: 0px;
     }
      .intro {
         font-size: 60px;
@@ -96,7 +88,7 @@
     .header {
         font-size: 20px;
     }
-    .row{
+    .masthead{
         padding-top: 120px;
         padding-bottom: 120px;
         padding-left: 30px;
@@ -120,7 +112,7 @@
     #endquote {
         font-size: 20px;
     }
-    #row2{
+    #about{
         padding-bottom: 100px;
         padding-right: 10px;
         padding-left: 10px;
@@ -140,7 +132,7 @@
 }
 
 @media screen and (max-width: 520px){
-     #aboutme, #aboutme2 {
+     #about, #aboutme2 {
         padding-right: 20px;
         padding-left: 20px;
     }
@@ -159,7 +151,7 @@
     .biodescrip {
         font-size: 14px;
     }
-    .row{
+    .masthead{
         padding-left: 15px;
         padding-right: 15px;
     }

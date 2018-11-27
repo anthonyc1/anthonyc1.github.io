@@ -19,6 +19,40 @@
 }
 
 @media screen and (max-width: 990px){
+    #writing-links {
+        padding-right: auto;
+        padding-left: auto;
+        text-align: center;
+        
+        width:100%;
+        display: block;
+
+    }
+    #card1-small {
+        width: 100%;
+        display: block;
+    }
+
+    #card2-small {
+        width: 100%;
+        display: block;
+    }
+
+    #card3-small {
+        width: 100%;
+        display: block;
+    }
+    #card1 {
+        display: none;
+    }
+
+    #card2 {
+        display: none;
+    }
+
+    #card3 {
+        display: none;
+    }
     #image{
         padding-left: 80px;
     }

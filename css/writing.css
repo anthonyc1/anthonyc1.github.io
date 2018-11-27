@@ -46,3 +46,27 @@
     font-weight: normal;
     font-family: 'Montserrat', 'Lato',open sans,sans-serif;
 }
+
+#card1 {
+    width: 18rem;
+}
+
+#card2 {
+    width: 20rem;
+}
+
+#card3 {
+    width: 22rem;
+}
+
+#card1-small {
+    display: none;
+}
+
+#card2-small {
+    display: none;
+}
+
+#card3-small {
+    display: none;
+}

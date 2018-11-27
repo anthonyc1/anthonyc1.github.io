@@ -48,7 +48,7 @@
 		    <a class="nav-link" href="./writing.html">Writing</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link" href="./index.html#contact">Contact</a>
+		    <a class="nav-link" href="#contact">Contact</a>
 		  </li>
 		</ul>
 	  </div>
@@ -56,37 +56,84 @@
 
 	<!--Writing Section-->
 	<div id="writing-section">
-		<h1 class="title">My Technical Writing</h1>
+		<h1 id="writing-title">My Technical Writing</h1>
 		<div id="aboutme-bar">
-			<div><p class="biodescrip"><tab></tab>
-			I minor in Writing in University, and I love when I can combine my passions for technology and writing. Here are some of the work I've done in my Technical Communications class!
+			<div><p id="writing-descrip"><tab></tab>
+			In addition to being a Computer Science major, I also <strong>minor in Writing & Rhetoric</strong>. I love when I can combine my passions for technology and writing. 
+			<br><br>Here are some of the work I've done in my Technical Communications class!
 			</p></div>
 		</div>
 	</div>
+
 	<div id="writing-links">
 		<div class="card text-left" style="width: 18rem;">
 		  <div class="card-body">
 		    <h5 class="card-title">Creating an Excel Macro</h5>
 		    <p class="card-text">User manual to teach Excel users of all levels how to easily create a macro to automate tasks.</p>
-		    <a href="#" class="btn btn-primary">Go somewhere</a>
+		    <a target="_blank" href="
+        ./writing/user_manual.pdf
+      " class="btn btn-default">Read PDF</a>
 		  </div>
 		</div>
 
-		<div class="card text-center" style="width: 18rem;">
+		<div class="card text-center" style="width: 20rem;">
 		  <div class="card-body">
 		    <h5 class="card-title">Dawn of a Research Park at SBU</h5>
 		    <p class="card-text">News letter breaking down the ongoing developments of SBU research park and the associated tech highway.</p>
-		    <a href="#" class="btn btn-primary">Go somewhere</a>
+		    <a target="_blank" href="./writing/news_release.pdf" class="btn btn-default">Read PDF</a>
 		  </div>
 		</div>
 
-		<div class="card text-right" style="width: 18rem;">
+		<div class="card text-right" style="width: 22rem;">
 		  <div class="card-body">
 		    <h5 class="card-title">Improving Transportation at SBU</h5>
 		    <p class="card-text">A collaborative problem-solving project where my team tackled the various issues in on- and off-campus transportation in our school.</p>
-		    <a href="#" class="btn btn-primary">Go somewhere</a>
+		    <a target="_blank" href="
+        ./writing/collaborative_project.pdf
+      " class="btn btn-default">See Powerpoint</a>
 		  </div>
 		</div>
-	</div>	
+	</div>
+
+			<!--Contact Section-->
+		<div id="contact">
+			<h1 class="titleinverse">Reach Out To Me</h1>
+			<div id="socialWrapper">
+				<div>
+					<a href="https://github.com/anthonyc1" target="_blank"><i class="fa fa-github fa-5x"></i></a><br><p class="inversefooter">Github</p>
+				</div>
+				<div>
+					<a href="https://devpost.com/anthonychan0123" target="_blank"><i class="fa fa-code fa-5x"></i></a><br><p class="inversefooter">Devpost</p>
+				</div>
+				<div>
+					<a href="https://www.linkedin.com/in/anthonychan0123" target="_blank"><i class="fa fa-linkedin fa-5x"></i></a><br><p class="inversefooter">LinkedIn</p>
+				</div>
+				<div>
+					<a href='mai&#108;to&#58;a&#110;t&#104;%6Fny&#99;&#104;an&#48;%31&#50;3&#64;gm&#97;il&#46;c%&#54;Fm'&#97;nthon&#121;&#99;han012&#51;&#64;gma&#105;&#108;&#46;c&#111;&#109;><i class="fa fa-envelope fa-5x" aria-hidden="true" target="_blank"></i></a><br><p class="inversefooter">Email</p>
+				</div>
+			</div>
+			<div id="footer">
+				<p class="inverse">Copyright &copy Anthony Chan</p>
+			</div>
+		</div>
+			
+		<!--JS Scripts-->
+		<script src= "js/index.js" type="text/javascript"></script>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!--Google Analytics-->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-89594550-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>	
 	</body>
 </html>

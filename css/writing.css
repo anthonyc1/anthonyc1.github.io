@@ -1,0 +1,16 @@
+#writing-section {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#writing-links {
+	text-align: center;
+	display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content:space-between;
+    width: 80%;
+}

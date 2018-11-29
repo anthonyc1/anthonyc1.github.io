@@ -101,7 +101,11 @@
 }
 
 @media screen and (max-width: 750px){
-
+	#writing-descrip {
+	    font-size: 16px;
+	    padding-right: 20px;
+	    padding-left: 20px;
+	}
     #aboutme2{
         padding-right: 70px;
         padding-left: 70px;

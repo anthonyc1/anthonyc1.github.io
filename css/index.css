@@ -207,10 +207,13 @@ tab{
     color: brown;
     font-size: 16px;
 }
-#link {
+#github_link {
     font-family: 'Raleway', 'Roboto', sans-serif;
     font-size: 20px;
 }
+#company_link:hover, 
+#hackathon_link:hover, 
+#github_link:hover,
 #link:hover {
 	background-color: tan;
 }
